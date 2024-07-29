@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Promise 基础\r代码示例：创建一个基本的Promise\r1 2 3 4 5 6 7 8 9 10 11 12 13 14 let promise = new Promise(function(resolve, reject) { // 异步操作代码 setTimeout(() =&gt; { resolve(&#34;操作成功&#34;); }, 1000); }); // resolve()执行后， then方法里面的内容才会执行 await promise.then( // 第一个参数为resolve()方法的回调 (value) =&gt; { console.log(value); // 输出：操作成功 }); console.log(&#39;代码结束！&#39;) Promise 的状态\r一个Promise有三种可能的状态： pending（待定） ：初始状态，既不是成功，也不是失败。 fulfilled（已实现） ：意味着操作成功完成。 rejected（已拒绝） ：意味着操作失败。">
 <title>Promise使用</title>
 
-<link rel='canonical' href='https://pierai.github.io/p/promise%E4%BD%BF%E7%94%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/promise%E4%BD%BF%E7%94%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Promise使用">
 <meta property='og:description' content="Promise 基础\r代码示例：创建一个基本的Promise\r1 2 3 4 5 6 7 8 9 10 11 12 13 14 let promise = new Promise(function(resolve, reject) { // 异步操作代码 setTimeout(() =&gt; { resolve(&#34;操作成功&#34;); }, 1000); }); // resolve()执行后， then方法里面的内容才会执行 await promise.then( // 第一个参数为resolve()方法的回调 (value) =&gt; { console.log(value); // 输出：操作成功 }); console.log(&#39;代码结束！&#39;) Promise 的状态\r一个Promise有三种可能的状态： pending（待定） ：初始状态，既不是成功，也不是失败。 fulfilled（已实现） ：意味着操作成功完成。 rejected（已拒绝） ：意味着操作失败。">
-<meta property='og:url' content='https://pierai.github.io/p/promise%E4%BD%BF%E7%94%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/promise%E4%BD%BF%E7%94%A8/'>
 <meta property='og:site_name' content='Somi 博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:published_time' content='2024-07-24T13:43:09&#43;08:00'/><meta property='article:modified_time' content='2024-07-24T13:43:09&#43;08:00'/>
 <meta name="twitter:title" content="Promise使用">
@@ -264,11 +264,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="https://pierai.github.io/en/" >English</option>
+                                    <option value="http://localhost:1313/en/" >English</option>
                                 
-                                    <option value="https://pierai.github.io/" selected>中文</option>
+                                    <option value="http://localhost:1313/" selected>中文</option>
                                 
-                                    <option value="https://pierai.github.io/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/ar/" >عربي</option>
                                 
                             </select>
                         </li>

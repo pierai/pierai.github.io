@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="配置项解释\r这个配置使用了 vite-plugin-mock 插件来简化 Mock.js 的集成，具体配置项如下： 1 2 3 4 5 6 7 8 9 10 viteMockServe({ mockPath: &#34;mock&#34;, localEnabled: true, prodEnabled: false, injectCode: ` import { setupProdMockServer } from &#39;./mock/mockProdServer&#39;; setupProdMockServer(); `, logger: false }) mockPath: mockPath: &quot;mock&quot;：指定存放 Mock 数据的目录。这里指定为 &quot;mock&quot;，表示 Mock 数据文件放在项目根目录下的 mock 文件夹内。 localEnabled: localEnabled: true：在本地开发环境中启用 Mock 数据。true 表示总是启用 Mock 数据，不需要根据 command 来判断。 prodEnabled: prodEnabled: false：在生产环境中禁用 Mock 数据。false 表示即使在生产环境也不会启用 Mock 数据。 injectCode: injectCode: ...：在打包后自动注入到入口文件中的代码。用于在生产环境中手动设置 Mock 数据。 具体代码为： 1 2 import { setupProdMockServer } from &#39;.">
 <title>Mockjs</title>
 
-<link rel='canonical' href='https://pierai.github.io/p/mockjs/'>
+<link rel='canonical' href='http://localhost:1313/p/mockjs/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Mockjs">
 <meta property='og:description' content="配置项解释\r这个配置使用了 vite-plugin-mock 插件来简化 Mock.js 的集成，具体配置项如下： 1 2 3 4 5 6 7 8 9 10 viteMockServe({ mockPath: &#34;mock&#34;, localEnabled: true, prodEnabled: false, injectCode: ` import { setupProdMockServer } from &#39;./mock/mockProdServer&#39;; setupProdMockServer(); `, logger: false }) mockPath: mockPath: &quot;mock&quot;：指定存放 Mock 数据的目录。这里指定为 &quot;mock&quot;，表示 Mock 数据文件放在项目根目录下的 mock 文件夹内。 localEnabled: localEnabled: true：在本地开发环境中启用 Mock 数据。true 表示总是启用 Mock 数据，不需要根据 command 来判断。 prodEnabled: prodEnabled: false：在生产环境中禁用 Mock 数据。false 表示即使在生产环境也不会启用 Mock 数据。 injectCode: injectCode: ...：在打包后自动注入到入口文件中的代码。用于在生产环境中手动设置 Mock 数据。 具体代码为： 1 2 import { setupProdMockServer } from &#39;.">
-<meta property='og:url' content='https://pierai.github.io/p/mockjs/'>
+<meta property='og:url' content='http://localhost:1313/p/mockjs/'>
 <meta property='og:site_name' content='Somi 博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:published_time' content='2024-07-21T20:02:14&#43;08:00'/><meta property='article:modified_time' content='2024-07-21T20:02:14&#43;08:00'/>
 <meta name="twitter:title" content="Mockjs">
@@ -264,11 +264,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="https://pierai.github.io/en/" >English</option>
+                                    <option value="http://localhost:1313/en/" >English</option>
                                 
-                                    <option value="https://pierai.github.io/" selected>中文</option>
+                                    <option value="http://localhost:1313/" selected>中文</option>
                                 
-                                    <option value="https://pierai.github.io/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/ar/" >عربي</option>
                                 
                             </select>
                         </li>

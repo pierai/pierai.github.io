@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>#前端#TS on Somi 博客</title>
-        <link>https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23ts/</link>
+        <link>http://localhost:1313/categories/%23%E5%89%8D%E7%AB%AF%23ts/</link>
         <description>Recent content in #前端#TS on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 09 Jul 2024 10:28:13 +0800</lastBuildDate><atom:link href="https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23ts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 09 Jul 2024 10:28:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%23%E5%89%8D%E7%AB%AF%23ts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>tsconfig.json解析</title>
-        <link>https://pierai.github.io/p/tsconfig.json%E8%A7%A3%E6%9E%90/</link>
+        <link>http://localhost:1313/p/tsconfig.json%E8%A7%A3%E6%9E%90/</link>
         <pubDate>Tue, 09 Jul 2024 10:28:13 +0800</pubDate>
         
-        <guid>https://pierai.github.io/p/tsconfig.json%E8%A7%A3%E6%9E%90/</guid>
+        <guid>http://localhost:1313/p/tsconfig.json%E8%A7%A3%E6%9E%90/</guid>
         <description>&lt;h2 id=&#34;allowsyntheticdefaultimports和esmoduleinterop的区别&#34;&gt;allowSyntheticDefaultImports和esModuleInterop的区别
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;allowSyntheticDefaultImports&lt;/code&gt;和&lt;code&gt;esModuleInterop&lt;/code&gt;是TypeScript编译器（tsc）配置中的两个重要选项，它们各自具有不同的作用，但在某些情况下会协同工作以解决模块导入时的兼容性问题。以下是对这两个选项区别的详细解释：&lt;/p&gt;
 &lt;h3 id=&#34;allowsyntheticdefaultimports&#34;&gt;allowSyntheticDefaultImports

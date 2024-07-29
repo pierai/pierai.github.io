@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="往组件传递数据\r在 Vue 3 中，使用 defineProps 来定义组件的 props 时，有两种主要方式： 使用 defineProps({ item: Object })： 这种方式直接定义 props 为一个对象，其中 item 是 Object 类型。这种方法比较灵活，适用于不需要精确定义 props 类型的情况。 使用 defineProps(['itemData'])： 这种方式仅指定 props 的名称，而不指定其类型或结构。这种方法适用于简单的情况，尤其是当你不关心 props 的类型时。 区别与选择\r类型定义 defineProps({ item: Object })：明确指定 item 为 Object 类型，适用于需要定义类型的情况，但类型定义较为宽泛。 defineProps(['itemData'])：只定义 props 名称，Vue 自动推断类型，类型推断更为宽泛，不适合严格的类型检查。 TypeScript 支持 defineProps({ item: Object })：在 TypeScript 项目中，可以使用类型来增强类型检查和代码提示。 defineProps(['itemData'])：无法提供类型检查和代码提示，对于复杂项目或需要类型安全的项目不太适用。 选择\r如果你需要在 TypeScript 项目中保持类型安全和代码提示，使用 defineProps 并明确指定类型是更好的选择。 如果你不需要类型检查，或者项目较小、简单，使用 defineProps(['itemData']) 也是一种简洁的选择。 示例代码\r使用 defineProps({ item: Object })\r1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 &lt;template&gt; &lt;div&gt; &lt;!">
 <title>Vue3使用</title>
 
-<link rel='canonical' href='https://pierai.github.io/p/vue3%E4%BD%BF%E7%94%A8/'>
+<link rel='canonical' href='http://localhost:1313/p/vue3%E4%BD%BF%E7%94%A8/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Vue3使用">
 <meta property='og:description' content="往组件传递数据\r在 Vue 3 中，使用 defineProps 来定义组件的 props 时，有两种主要方式： 使用 defineProps({ item: Object })： 这种方式直接定义 props 为一个对象，其中 item 是 Object 类型。这种方法比较灵活，适用于不需要精确定义 props 类型的情况。 使用 defineProps(['itemData'])： 这种方式仅指定 props 的名称，而不指定其类型或结构。这种方法适用于简单的情况，尤其是当你不关心 props 的类型时。 区别与选择\r类型定义 defineProps({ item: Object })：明确指定 item 为 Object 类型，适用于需要定义类型的情况，但类型定义较为宽泛。 defineProps(['itemData'])：只定义 props 名称，Vue 自动推断类型，类型推断更为宽泛，不适合严格的类型检查。 TypeScript 支持 defineProps({ item: Object })：在 TypeScript 项目中，可以使用类型来增强类型检查和代码提示。 defineProps(['itemData'])：无法提供类型检查和代码提示，对于复杂项目或需要类型安全的项目不太适用。 选择\r如果你需要在 TypeScript 项目中保持类型安全和代码提示，使用 defineProps 并明确指定类型是更好的选择。 如果你不需要类型检查，或者项目较小、简单，使用 defineProps(['itemData']) 也是一种简洁的选择。 示例代码\r使用 defineProps({ item: Object })\r1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 &lt;template&gt; &lt;div&gt; &lt;!">
-<meta property='og:url' content='https://pierai.github.io/p/vue3%E4%BD%BF%E7%94%A8/'>
+<meta property='og:url' content='http://localhost:1313/p/vue3%E4%BD%BF%E7%94%A8/'>
 <meta property='og:site_name' content='Somi 博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:tag' content='Vue3' /><meta property='article:published_time' content='2024-07-25T16:33:25&#43;08:00'/><meta property='article:modified_time' content='2024-07-25T16:33:25&#43;08:00'/>
 <meta name="twitter:title" content="Vue3使用">
@@ -264,11 +264,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="https://pierai.github.io/en/" >English</option>
+                                    <option value="http://localhost:1313/en/" >English</option>
                                 
-                                    <option value="https://pierai.github.io/" selected>中文</option>
+                                    <option value="http://localhost:1313/" selected>中文</option>
                                 
-                                    <option value="https://pierai.github.io/ar/" >عربي</option>
+                                    <option value="http://localhost:1313/ar/" >عربي</option>
                                 
                             </select>
                         </li>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>#网球 on Somi 博客</title>
-        <link>https://pierai.github.io/categories/%23%E7%BD%91%E7%90%83/</link>
+        <link>http://localhost:1313/categories/%23%E7%BD%91%E7%90%83/</link>
         <description>Recent content in #网球 on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 04 Jul 2024 09:09:05 +0800</lastBuildDate><atom:link href="https://pierai.github.io/categories/%23%E7%BD%91%E7%90%83/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 Jul 2024 09:09:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%23%E7%BD%91%E7%90%83/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>网球2.0进阶指南</title>
-        <link>https://pierai.github.io/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/</link>
+        <link>http://localhost:1313/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/</link>
         <pubDate>Thu, 04 Jul 2024 09:09:05 +0800</pubDate>
         
-        <guid>https://pierai.github.io/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;img src="https://pierai.github.io/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/background.jpg" alt="Featured image of post 网球2.0进阶指南" /&gt;&lt;h2 id=&#34;写在前面&#34;&gt;写在前面
+        <guid>http://localhost:1313/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E7%BD%91%E7%90%832.0%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97/background.jpg" alt="Featured image of post 网球2.0进阶指南" /&gt;&lt;h2 id=&#34;写在前面&#34;&gt;写在前面
 &lt;/h2&gt;&lt;p&gt;不要被正手的掉拍头、拍头高度、收拍轨迹、匹配击球高度等条条框框限制住。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;NOTE：&lt;/strong&gt;&lt;/em&gt; 后续所有动作都包含核心动作和核心思想，来指导所有技术细节&lt;/p&gt;

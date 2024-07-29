@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Stack on Somi 博客</title>
-        <link>https://pierai.github.io/tags/stack/</link>
+        <link>http://localhost:1313/tags/stack/</link>
         <description>Recent content in Stack on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 02 Jul 2024 10:41:49 +0800</lastBuildDate><atom:link href="https://pierai.github.io/tags/stack/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 02 Jul 2024 10:41:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/stack/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>HuGo Stack主题使用指南</title>
-        <link>https://pierai.github.io/p/hugo-stack-guide/</link>
+        <link>http://localhost:1313/p/hugo-stack-guide/</link>
         <pubDate>Tue, 02 Jul 2024 10:41:49 +0800</pubDate>
         
-        <guid>https://pierai.github.io/p/hugo-stack-guide/</guid>
+        <guid>http://localhost:1313/p/hugo-stack-guide/</guid>
         <description>&lt;h2 id=&#34;s&#34;&gt;s
 &lt;/h2&gt;&lt;h3 id=&#34;配置github-pages&#34;&gt;配置GitHub Pages
 &lt;/h3&gt;&lt;p&gt;在浏览器打开&lt;code&gt;HTML 文件远程仓库&lt;/code&gt;的Setting页面&lt;a class=&#34;link&#34; href=&#34;https://github.com/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d.github.io/settings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;扩展&#34;&gt;扩展
 &lt;/h2&gt;&lt;h2 id=&#34;配置stack主题&#34;&gt;配置Stack主题
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pierai.github.io/p/hugo-stack-guide/&#34; &gt;举个例子&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/hugo-stack-guide/&#34; &gt;举个例子&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A
 &lt;/h2&gt;&lt;h3 id=&#34;克隆项目时子模块没有被自动克隆&#34;&gt;克隆项目时，子模块没有被自动克隆？
 &lt;/h3&gt;&lt;p&gt;默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。&lt;/p&gt;

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Go on Somi 博客</title>
-        <link>https://pierai.github.io/tags/go/</link>
+        <link>http://localhost:1313/tags/go/</link>
         <description>Recent content in Go on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 02 Jul 2024 10:41:49 +0800</lastBuildDate><atom:link href="https://pierai.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 02 Jul 2024 10:41:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/go/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>HuGo Stack主题使用指南</title>
-        <link>https://pierai.github.io/p/hugo-stack-guide/</link>
+        <link>http://localhost:1313/p/hugo-stack-guide/</link>
         <pubDate>Tue, 02 Jul 2024 10:41:49 +0800</pubDate>
         
-        <guid>https://pierai.github.io/p/hugo-stack-guide/</guid>
+        <guid>http://localhost:1313/p/hugo-stack-guide/</guid>
         <description>&lt;h2 id=&#34;s&#34;&gt;s
 &lt;/h2&gt;&lt;h3 id=&#34;配置github-pages&#34;&gt;配置GitHub Pages
 &lt;/h3&gt;&lt;p&gt;在浏览器打开&lt;code&gt;HTML 文件远程仓库&lt;/code&gt;的Setting页面&lt;a class=&#34;link&#34; href=&#34;https://github.com/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d.github.io/settings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;扩展&#34;&gt;扩展
 &lt;/h2&gt;&lt;h2 id=&#34;配置stack主题&#34;&gt;配置Stack主题
-&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pierai.github.io/p/hugo-stack-guide/&#34; &gt;举个例子&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/hugo-stack-guide/&#34; &gt;举个例子&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A
 &lt;/h2&gt;&lt;h3 id=&#34;克隆项目时子模块没有被自动克隆&#34;&gt;克隆项目时，子模块没有被自动克隆？
 &lt;/h3&gt;&lt;p&gt;默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。&lt;/p&gt;
@@ -55,11 +55,11 @@
         </item>
         <item>
         <title>360°无死角记录HuGo博客搭建（方式一）</title>
-        <link>https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/</link>
+        <link>http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/</link>
         <pubDate>Fri, 28 Jun 2024 14:23:29 +0800</pubDate>
         
-        <guid>https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/</guid>
-        <description>&lt;img src="https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/hugoblog.png" alt="Featured image of post 360°无死角记录HuGo博客搭建（方式一）" /&gt;&lt;h2 id=&#34;windows-环境安装&#34;&gt;Windows 环境安装
+        <guid>http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/</guid>
+        <description>&lt;img src="http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/hugoblog.png" alt="Featured image of post 360°无死角记录HuGo博客搭建（方式一）" /&gt;&lt;h2 id=&#34;windows-环境安装&#34;&gt;Windows 环境安装
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/download/v0.128.0/hugo_extended_0.128.0_windows-amd64.zip&#34;  title=&#34;Windows 64位AMD拓展版&#34;
@@ -404,7 +404,7 @@
     &gt;http://localhost:1313/post/arts/harmonica/曲谱/&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;更多文章撰写笔记相关文章：&lt;/strong&gt;&lt;br&gt;
-1. &lt;a class=&#34;link&#34; href=&#34;https://pierai.github.io/p/markdown%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/&#34; &gt;Markdown写作指南&lt;/a&gt;&lt;/p&gt;
+1. &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/markdown%E5%86%99%E4%BD%9C%E6%8C%87%E5%8D%97/&#34; &gt;Markdown写作指南&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;发布github-pages&#34;&gt;发布GitHub Pages·
 &lt;/h2&gt;&lt;h3 id=&#34;创建两个github-repository&#34;&gt;创建两个GitHub Repository
@@ -523,10 +523,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;示例：
-&lt;img src=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup.png&#34;
 	width=&#34;1046&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup_hu9d41c101c04cfcd0b42f987e17ca5898_26754_480x0_resize_box_3.png 480w, https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup_hu9d41c101c04cfcd0b42f987e17ca5898_26754_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup_hu9d41c101c04cfcd0b42f987e17ca5898_26754_480x0_resize_box_3.png 480w, http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/nslookup_hu9d41c101c04cfcd0b42f987e17ca5898_26754_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片 1&#34;
@@ -581,10 +581,10 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;示例：
-&lt;img src=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve.png&#34;
 	width=&#34;1836&#34;
 	height=&#34;366&#34;
-	srcset=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve_hu7b1bcec52455e7aa5e5d532758b33fac_33170_480x0_resize_box_3.png 480w, https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve_hu7b1bcec52455e7aa5e5d532758b33fac_33170_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve_hu7b1bcec52455e7aa5e5d532758b33fac_33170_480x0_resize_box_3.png 480w, http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/domain_resolve_hu7b1bcec52455e7aa5e5d532758b33fac_33170_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片2&#34;
@@ -603,10 +603,10 @@
 &lt;p&gt;GitHub Settings配置&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;打开GitHub&lt;code&gt;HTML 文件远程仓库&lt;/code&gt;Settings配置
-&lt;img src=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings.png&#34;
 	width=&#34;2058&#34;
 	height=&#34;1166&#34;
-	srcset=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings_hu44b83a0a200305f415dea32925847c49_189433_480x0_resize_box_3.png 480w, https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings_hu44b83a0a200305f415dea32925847c49_189433_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings_hu44b83a0a200305f415dea32925847c49_189433_480x0_resize_box_3.png 480w, http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/GitHubSettings_hu44b83a0a200305f415dea32925847c49_189433_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片3&#34;
@@ -618,10 +618,10 @@
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;配置你的域名并Save
-&lt;img src=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain.png&#34;
+&lt;img src=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain.png&#34;
 	width=&#34;2174&#34;
 	height=&#34;1212&#34;
-	srcset=&#34;https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain_hu9f398c2222049b0e0d0f080f29a4c986_186385_480x0_resize_box_3.png 480w, https://pierai.github.io/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain_hu9f398c2222049b0e0d0f080f29a4c986_186385_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain_hu9f398c2222049b0e0d0f080f29a4c986_186385_480x0_resize_box_3.png 480w, http://localhost:1313/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/github_custom_domain_hu9f398c2222049b0e0d0f080f29a4c986_186385_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;图片4&#34;
@@ -644,7 +644,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;扩展&#34;&gt;扩展
 &lt;/h2&gt;&lt;h3 id=&#34;配置stack主题&#34;&gt;配置stack主题
-&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pierai.github.io/p/hugo-stack-guide/&#34; &gt;HuGo Stack主题使用指南&lt;/a&gt;&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/hugo-stack-guide/&#34; &gt;HuGo Stack主题使用指南&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A
 &lt;/h2&gt;&lt;h3 id=&#34;提交html-文件远程仓库代码冲突了&#34;&gt;提交&lt;code&gt;HTML 文件远程仓库&lt;/code&gt;代码冲突了？
 &lt;/h3&gt;&lt;p&gt;删除&lt;code&gt;public&lt;/code&gt;文件夹， 重新&lt;code&gt;hugo&lt;/code&gt;、&lt;code&gt;hugo server -D&lt;/code&gt;、提交&lt;code&gt;public&lt;/code&gt;文件夹到仓库&lt;/p&gt;
