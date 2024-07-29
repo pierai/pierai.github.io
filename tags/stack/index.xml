@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Stack on Somi 博客</title>
+        <link>http://localhost:61614/tags/stack/</link>
+        <description>Recent content in Stack on Somi 博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Tue, 02 Jul 2024 10:41:49 +0800</lastBuildDate><atom:link href="http://localhost:61614/tags/stack/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>HuGo Stack主题使用指南</title>
+        <link>http://localhost:61614/p/hugo-stack-guide/</link>
+        <pubDate>Tue, 02 Jul 2024 10:41:49 +0800</pubDate>
+        
+        <guid>http://localhost:61614/p/hugo-stack-guide/</guid>
+        <description>&lt;h2 id=&#34;s&#34;&gt;s
+&lt;/h2&gt;&lt;h3 id=&#34;配置github-pages&#34;&gt;配置GitHub Pages
+&lt;/h3&gt;&lt;p&gt;在浏览器打开&lt;code&gt;HTML 文件远程仓库&lt;/code&gt;的Setting页面&lt;a class=&#34;link&#34; href=&#34;https://github.com/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d.github.io/settings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;扩展&#34;&gt;扩展
+&lt;/h2&gt;&lt;h2 id=&#34;配置stack主题&#34;&gt;配置Stack主题
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:61614/p/hugo-stack-guide/&#34; &gt;举个例子&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;q--a&#34;&gt;Q &amp;amp; A
+&lt;/h2&gt;&lt;h3 id=&#34;克隆项目时子模块没有被自动克隆&#34;&gt;克隆项目时，子模块没有被自动克隆？
+&lt;/h3&gt;&lt;p&gt;默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule update --init --recursive
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;帖子内的目录展示不正常&#34;&gt;帖子内的目录展示不正常？
+&lt;/h3&gt;&lt;p&gt;不要写一级标题，从二级标题开始&lt;/p&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料
+&lt;/h2&gt;&lt;h3 id=&#34;stack主题相关&#34;&gt;Stack主题相关
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://demo.stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方示例博客网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/config/sidebar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stack-docs.netlify.app/zh/writing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方文档-中文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/#quickstart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack主题HuGo项目快速开始&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;精品博客网站欣赏&#34;&gt;精品博客网站欣赏
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/hugo-stack-renovation-part-two/#:~:text=%E5%9C%A8assets%2Fscss%2Fpartials%2Farticle.scss%E9%87%8C%E6%89%BE%E5%88%B0.article-list--compact,%E5%B9%B6%E5%A2%9E%E5%8A%A0.article-link%20%E6%A0%B7%E5%BC%8F%E3%80%82&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Stack 第三夏尔 | Third Shire&lt;/a&gt;&lt;br&gt;
+支持评论、聊天室&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

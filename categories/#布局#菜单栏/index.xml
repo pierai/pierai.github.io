@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>#布局#菜单栏 on Somi 博客</title>
+        <link>http://localhost:61614/categories/%23%E5%B8%83%E5%B1%80%23%E8%8F%9C%E5%8D%95%E6%A0%8F/</link>
+        <description>Recent content in #布局#菜单栏 on Somi 博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 25 Jul 2024 14:57:35 +0800</lastBuildDate><atom:link href="http://localhost:61614/categories/%23%E5%B8%83%E5%B1%80%23%E8%8F%9C%E5%8D%95%E6%A0%8F/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>菜单栏实现</title>
+        <link>http://localhost:61614/p/%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%AE%9E%E7%8E%B0/</link>
+        <pubDate>Thu, 25 Jul 2024 14:57:35 +0800</pubDate>
+        
+        <guid>http://localhost:61614/p/%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%AE%9E%E7%8E%B0/</guid>
+        <description>&lt;h2 id=&#34;注意事项&#34;&gt;注意事项
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;所有涉及菜单的组件，都需要传&lt;code&gt;index&lt;/code&gt;属性，否则不会正常展示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;mymenuitemvue组件的实现&#34;&gt;&lt;code&gt;MyMenuItem.vue&lt;/code&gt;组件的实现
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;item&lt;/code&gt; 没有子节点：直接使用&lt;code&gt;el-menu-item&lt;/code&gt;展示&lt;code&gt;item&lt;/code&gt;本身&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;item&lt;/code&gt; 有子节点：
+&lt;ul&gt;
+&lt;li&gt;使用&lt;code&gt;el-sub-menu&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;item.meta.title&lt;/code&gt;作为标题&lt;/li&gt;
+&lt;li&gt;递归&lt;code&gt;MyMenuItem.vue&lt;/code&gt;组件对&lt;code&gt;item.children&lt;/code&gt;属性遍历&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;图标使用&#34;&gt;图标使用
+&lt;/h3&gt;&lt;p&gt;iconify&lt;/p&gt;
+&lt;h3 id=&#34;点击菜单跳转路由&#34;&gt;点击菜单跳转路由
+&lt;/h3&gt;&lt;h2 id=&#34;el-menu&#34;&gt;el-menu
+&lt;/h2&gt;&lt;h3 id=&#34;default-active&#34;&gt;default-active
+&lt;/h3&gt;&lt;p&gt;页面加载时默认激活菜单的 index&lt;/p&gt;
+&lt;h2 id=&#34;el-sub-menu&#34;&gt;el-sub-menu
+&lt;/h2&gt;&lt;h3 id=&#34;标题&#34;&gt;标题
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-vue&#34; data-lang=&#34;vue&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;index属性&#34;&gt;index属性
+&lt;/h3&gt;&lt;p&gt;唯一标志，必填&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;
+&lt;/h3&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

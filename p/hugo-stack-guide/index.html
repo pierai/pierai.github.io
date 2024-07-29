@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61614&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="s\r配置GitHub Pages\r在浏览器打开HTML 文件远程仓库的Setting页面https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings 扩展\r配置Stack主题\r举个例子 Q &amp; A\r克隆项目时，子模块没有被自动克隆？\r默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。 1 git submodule update --init --recursive 帖子内的目录展示不正常？\r不要写一级标题，从二级标题开始 参考资料\rStack主题相关\r官方示例博客网站 官方文档 官方文档-中文 Stack主题HuGo项目快速开始 精品博客网站欣赏\rHugo Stack 第三夏尔 | Third Shire 支持评论、聊天室 ">
+<title>HuGo Stack主题使用指南</title>
+
+<link rel='canonical' href='http://localhost:61614/p/hugo-stack-guide/'>
+
+<link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="HuGo Stack主题使用指南">
+<meta property='og:description' content="s\r配置GitHub Pages\r在浏览器打开HTML 文件远程仓库的Setting页面https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings 扩展\r配置Stack主题\r举个例子 Q &amp; A\r克隆项目时，子模块没有被自动克隆？\r默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。 1 git submodule update --init --recursive 帖子内的目录展示不正常？\r不要写一级标题，从二级标题开始 参考资料\rStack主题相关\r官方示例博客网站 官方文档 官方文档-中文 Stack主题HuGo项目快速开始 精品博客网站欣赏\rHugo Stack 第三夏尔 | Third Shire 支持评论、聊天室 ">
+<meta property='og:url' content='http://localhost:61614/p/hugo-stack-guide/'>
+<meta property='og:site_name' content='Somi 博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Stack' /><meta property='article:tag' content='HuGo' /><meta property='article:tag' content='Go' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2024-07-02T10:41:49&#43;08:00'/><meta property='article:modified_time' content='2024-07-02T10:41:49&#43;08:00'/>
+<meta name="twitter:title" content="HuGo Stack主题使用指南">
+<meta name="twitter:description" content="s\r配置GitHub Pages\r在浏览器打开HTML 文件远程仓库的Setting页面https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings 扩展\r配置Stack主题\r举个例子 Q &amp; A\r克隆项目时，子模块没有被自动克隆？\r默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。 1 git submodule update --init --recursive 帖子内的目录展示不正常？\r不要写一级标题，从二级标题开始 参考资料\rStack主题相关\r官方示例博客网站 官方文档 官方文档-中文 Stack主题HuGo项目快速开始 精品博客网站欣赏\rHugo Stack 第三夏尔 | Third Shire 支持评论、聊天室 ">
+  
+
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu406e6e269bb4cb85b26ddf76c30b813b_547496_300x0_resize_q75_box.jpg" width="300"
+                            height="186" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Somi 博客</a></h1>
+            <h2 class="site-description">像牛马一样地劳动.</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://www.xiaohongshu.com/user/profile/608ece06000000000101c989'
+                        target="_blank"
+                        title="Xhs"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1719553300298" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13886" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><path d="M511.4 510.3m-446.9 0a446.9 446.9 0 1 0 893.8 0 446.9 446.9 0 1 0-893.8 0Z" fill="#FF3F3C" p-id="13887"></path><path d="M749.444 467.882h22.9c3.4-33.8 1.8-35.9-22.9-31.6v31.6z m32.6 95.5h46.3c0-14.1 0.3-27.1-0.1-40.1-0.3-8.5-6.3-13.4-16-13.5-20.6-0.3-41.2-0.1-63.1-0.1v88.4h-47.8V509.782h-47.5v-41h46.6v-33.4c-9.9-0.4-19.9-0.9-30.5-1.3v-40.5h30.2c0.8-5 1.5-8.9 2.2-13.2h45.6c0.7 3.9 1.4 7.8 2.2 12.6 22.8 0.2 48.6 0.3 59.7 19.8 9.3 16.2 10.1 36 15 55.8 0.5 0 4.3 0.1 8.1 0.4 25.4 2.4 41.7 16.1 42.9 38 1.1 19 1.1 38.1 0 57.1-1.3 22.9-19.9 35.4-49.7 34.7-27.4-0.7-42.8-12.4-44.1-35.4z" fill="#FFFFFF" p-id="13888"></path><path d="M607.1 557.8h45.4v40.3H486.8c8.1-14 15.6-27 23.5-40.6h46.5V434.7h-29.1v-40.6h108.5v40.2h-29v123.5z" fill="#FFFFFF" p-id="13889"></path><path d="M445.8 476.7c-11-0.9-20.4-0.9-29.5-2.5-12-2-17-9.2-11.9-18.8 12.8-24.1 26.3-48 40-71.8 1.2-2.1 6.2-3.6 9.6-3.7 12.3-0.4 24.6-0.2 39.3-0.2-11.3 20.3-21.9 39.4-32.6 58.6l3.1 2.1c16-11.3 34.2-3.5 54.8-6.9-14.7 25.8-28.1 49.4-42.7 75.1 11.7 0.7 19.8 1.1 30 1.7-6 10.6-11.5 20.6-17.7 30.5-1.1 1.7-4.7 3.2-7.1 3.3-14.8 0.2-29.7 0.8-44.3-0.4-16-1.3-21.4-9.5-15.2-22.4 7.1-14.6 15.5-28.8 24.2-44.6M247.7 380.2h47.2c0.4 2 1 3.9 1 5.9 0.1 58.3 0.2 116.6 0 174.8-0.1 25.8-16.8 39.5-44.6 37.7-20-1.4-30.2-10.8-34.7-33.6 5.3-0.2 10.4-0.5 15.4-0.6 4.8-0.1 9.7 0 15.7 0V380.2z" fill="#FFFFFF" p-id="13890"></path><path d="M167.817 434.957h49.3c-9.7 48.5 1.2 99.8-37 145.4-9.3-15.3-17.5-28.8-25.6-42.4-0.8-1.4-0.9-3.3-0.7-4.9 4.6-32.1 9.2-64.3 14-98.1" fill="#FFFFFF" p-id="13891"></path><path d="M362 580.1c-36.1-44.9-26.5-95.8-34.7-144.9h48.1c2.2 24.1 4.3 48.3 6.5 72.5 0.1 1.3-0.4 2.7 0.1 3.8 12.2 25.9-6.7 45.4-20 68.6" fill="#FFFFFF" p-id="13892"></path><path d="M386.63 598.763c9.7-16.1 16.7-28.1 24.2-39.9 1.1-1.7 4.4-3.5 6.6-3.4 11.2 0.4 22.4 1.8 33.6 2.2 11.1 0.4 22.3 0.1 35.5 0.1-7.8 13.3-14.7 25.2-22 36.9-1.2 1.9-4.3 3.9-6.6 3.9-22.3 0.3-44.7 0.2-71.3 0.2" fill="#FFFFFF" p-id="13893"></path><path d="M828.8 433.6c0-8.2-0.7-15.8 0.2-23.2 1.3-10.8 12.5-18.3 24.8-17.5 11.5 0.7 21.2 8.9 22.2 19 1.1 10.5-7.4 20.4-19.9 21.6-8.7 0.7-17.6 0.1-27.3 0.1" fill="#FFFFFF" p-id="13894"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/pierai'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1719546574776" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8435" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><path d="M512 512m-469.333333 0a469.333333 469.333333 0 1 0 938.666666 0 469.333333 469.333333 0 1 0-938.666666 0Z" fill="#434A54" p-id="8436"></path><path d="M610.688 808.149333c0-12.074667 0.426667-51.498667 0.426667-100.437333 0-34.133333-11.733333-56.448-24.832-67.84 81.493333-9.045333 167.125333-39.978667 167.125333-180.608 0-39.936-14.208-72.618667-37.674667-98.261333 3.84-9.216 16.341333-46.421333-3.584-96.853334 0 0-30.72-9.813333-100.565333 37.546667a351.658667 351.658667 0 0 0-91.733333-12.373333 350.549333 350.549333 0 0 0-91.605334 12.373333c-69.973333-47.36-100.693333-37.546667-100.693333-37.546667-19.882667 50.432-7.338667 87.637333-3.541333 96.853334a141.653333 141.653333 0 0 0-37.717334 98.261333c0 140.288 85.461333 171.690667 166.784 180.906667-10.453333 9.173333-19.968 25.301333-23.253333 48.981333-20.906667 9.386667-73.856 25.514667-106.496-30.421333 0 0-19.370667-35.157333-56.149333-37.76 0 0-35.712-0.426667-2.474667 22.272 0 0 23.978667 11.264 40.618667 53.546666 0 0 21.504 65.365333 123.349333 43.221334 0.170667 30.592 0.512 59.392 0.512 68.138666a19.968 19.968 0 0 1-2.218667 9.173334 339.925333 339.925333 0 0 0 187.904 3.114666 19.2 19.2 0 0 1-4.181333-12.288z" fill="#FFFFFF" p-id="8437"></path><path d="M180.138667 843.861333A467.882667 467.882667 0 0 0 512 981.333333c259.2 0 469.333333-210.133333 469.333333-469.333333 0-129.621333-52.522667-246.954667-137.472-331.861333L180.138667 843.861333z" fill="#231F20" opacity=".1" p-id="8438"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://gitee.com/pierai'
+                        target="_blank"
+                        title="Gitee"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1719546395507" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4034" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><path d="M512 1024C229.222 1024 0 794.778 0 512S229.222 0 512 0s512 229.222 512 512-229.222 512-512 512z m259.149-568.883h-290.74a25.293 25.293 0 0 0-25.292 25.293l-0.026 63.206c0 13.952 11.315 25.293 25.267 25.293h177.024c13.978 0 25.293 11.315 25.293 25.267v12.646a75.853 75.853 0 0 1-75.853 75.853h-240.23a25.293 25.293 0 0 1-25.267-25.293V417.203a75.853 75.853 0 0 1 75.827-75.853h353.946a25.293 25.293 0 0 0 25.267-25.292l0.077-63.207a25.293 25.293 0 0 0-25.268-25.293H417.152a189.62 189.62 0 0 0-189.62 189.645V771.15c0 13.977 11.316 25.293 25.294 25.293h372.94a170.65 170.65 0 0 0 170.65-170.65V480.384a25.293 25.293 0 0 0-25.293-25.267z" fill="#C71D23" p-id="4035"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/305889329'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1719553481961" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15751" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><path d="M511.593 1.227c-135.62 0-265.717 53.798-361.653 149.734C54.004 246.897 0.002 376.994 0.002 512.614c0 135.62 53.798 265.716 149.734 361.652S375.768 1024 511.388 1024c282.49 0 511.386-228.897 511.386-511.386 0-135.62-53.797-265.717-149.734-361.653C777.31 55.025 647.212 1.227 511.593 1.227z m0 0" fill="#FF509B" p-id="15752"></path><path d="M169.373 336.288c0 34.57 0 68.73 0.614 103.095 0.409 18 1.022 35.797 2.454 53.798 1.637 21.274 3.887 43.161 5.728 64.844 0 1.023 0.613 1.84 0.613 2.454 7.364-0.409 14.524-1.022 21.683-1.022 30.683-0.819 60.548 3.273 89.186 14.523 13.91 5.728 27.615 12.069 39.684 21.274 10.023 7.568 12.273 16.978 6.954 30.683a40.866 40.866 0 0 1-15.546 20.455c-16.978 13.296-34.365 25.16-54.82 31.91-14.32 4.91-29.047 8.388-43.98 10.842-19.432 2.864-39.274 4.296-59.116 6.137-4.091 0.614-7.977 0-12.273 0-1.841 0-2.455-1.023-2.455-2.864-0.204-8.796-1.023-18-1.636-27.001-1.023-11.66-2.25-23.115-3.478-34.774l-5.727-48.48c-2.046-17.182-4.296-33.956-6.341-50.934-1.841-16.773-3.478-33.342-5.728-49.911-2.66-18.82-5.318-37.638-8.182-56.662-2.864-22.296-7.16-44.593-12.887-66.275-0.41-1.023 0.614-2.864 1.227-3.478 19.228-7.364 38.457-14.932 57.48-22.705 5.932-3.069 6.546-3.887 6.546 4.09z m412.382 0c0 34.57 0 68.73 0.613 103.095 0.41 18 1.023 35.797 2.455 53.798 1.637 21.274 3.887 43.161 5.728 64.844 0 1.023 0.613 1.84 0.613 2.454 7.364-0.409 14.524-1.022 21.683-1.022 30.479-0.819 60.548 3.273 89.186 14.523 14.114 5.728 27.615 12.069 39.683 21.274 10.024 7.568 12.274 16.978 6.75 30.478-2.863 8.183-8.181 15.342-15.545 20.456-16.978 13.5-34.57 25.16-54.821 31.91-14.319 4.91-29.047 8.387-43.98 10.637-19.432 2.864-39.274 4.296-59.115 6.341-4.092 0.614-7.978 0-12.274 0-1.84 0-2.659-1.022-2.659-2.863-0.205-8.796-0.818-18.001-1.432-27.002-1.023-11.66-2.25-23.319-3.477-34.774l-5.728-48.275c-1.84-17.182-4.295-34.16-6.136-51.138-1.841-16.774-3.478-33.343-5.933-49.707-2.659-18.82-5.318-37.638-8.182-56.866-2.863-22.297-7.16-44.593-13.091-66.276-0.205-1.023 0.818-2.864 1.432-3.273 19.228-7.364 38.456-14.932 57.48-22.91 6.136-2.864 6.75-3.682 6.75 4.296zM470.273 520.387c10.227 0 20.455 0.204 30.683 0.613 2.454 0 3.886 1.841 3.886 4.296 0.205 5.318 0.614 10.228 0.614 15.342 0 23.728-0.41 47.865 0 71.594 0.41 19.228 1.023 38.047 1.227 57.275 0 1.023 0 2.455 0.41 4.5-10.842 0-21.888 0.205-32.116 0-1.022 0-2.659-1.636-2.659-2.659-1.432-16.978-2.864-33.752-4.5-50.73l-4.296-47.047c-1.227-15.955-2.863-32.115-4.295-48.48 0-1.022 0-1.84-0.41-3.272 3.887-0.819 7.774-1.432 11.456-1.432z m412.382 0c10.227 0 20.455 0.204 30.478 0.613 2.66 0 3.887 1.841 3.887 4.296 0.204 5.318 0.613 10.228 0.613 15.342 0 23.728-0.409 47.865 0 71.594 0.41 19.228 1.023 38.047 1.228 57.275 0 1.023 0 2.455 0.409 4.5-10.842 0-21.888 0.205-32.115 0-1.023 0-2.455-1.636-2.455-2.659-1.432-16.978-2.864-33.752-4.5-50.73l-4.296-47.047c-1.227-15.955-2.864-32.115-4.295-48.48 0-1.022 0-1.84-0.41-3.272 3.887-0.819 7.774-1.432 11.456-1.432z m-503.818-1.432c1.227 7.773 2.659 15.546 3.477 23.728 1.841 13.296 2.864 26.592 4.296 39.888 1.432 11.66 2.454 23.115 3.886 34.775 1.228 12.273 2.864 24.75 4.5 37.433 0.41 3.477 0.819 7.364 1.228 11.25-11.25 1.432-22.297 2.66-34.16 4.296-10.024-50.32-19.843-100.436-29.457-150.756 8.183-1.023 15.956-2.455 23.729-3.273 5.727-0.819 11.455-0.819 16.978-1.432 3.068-0.205 4.91 1.227 5.523 4.09z m412.382 0c1.227 7.773 2.454 15.546 3.477 23.728 1.841 13.296 2.864 26.592 4.296 39.888l3.886 34.775 4.5 37.433c0.41 3.477 1.023 7.364 1.432 11.25-11.25 1.432-22.296 2.66-34.16 4.296-10.228-50.32-19.842-100.027-29.456-150.756 8.182-1.023 15.955-2.455 23.728-3.273 5.728-0.819 11.455-0.819 16.978-1.432 2.864-0.205 4.91 1.227 5.319 4.09zM425.884 378.017l2.864 43.979c1.227 19.842 2.864 39.684 4.296 59.525 1.022 14.32 1.432 28.638 2.863 42.957 1.432 15.75 2.864 31.297 4.296 46.843 1.432 11.25 2.455 23.114 3.273 34.365 1.432 12.273 2.66 24.751 3.477 37.638l1.023 10.637c0 1.84-0.818 2.25-2.864 1.84-10.023-1.022-19.841-1.431-30.478-2.454-9.205-92.458-16.978-185.53-34.365-278.603l17.182-1.841 20.251-1.227c5.728-0.41 7.773 0.818 8.182 6.34z m412.382 0l2.864 43.979c1.227 19.842 2.864 39.684 4.296 59.525 1.022 14.32 1.636 28.638 2.863 42.957 1.432 15.75 2.864 31.297 4.296 46.843 1.227 11.25 2.25 23.114 3.273 34.365 1.227 12.273 2.66 24.751 3.477 37.638l1.023 10.637c0.205 1.84-0.818 2.25-2.864 1.84-10.227-1.022-19.841-1.431-30.478-2.454-9.205-92.458-16.978-185.53-34.365-278.603l17.182-1.841 20.251-1.227c5.728-0.41 7.773 0.818 8.182 6.34zM471.91 445.11c2.66 0.204 3.477 0.613 3.477 3.682-0.409 7.773 0 15.955 0 23.728v29.456c-5.727 0.613-11.045 1.023-16.364 1.227-1.636-18.819-2.864-37.842-4.5-58.093h17.387z m412.587 0c2.659 0.204 3.477 0.613 3.477 3.682-0.41 7.773 0 15.955 0 23.728v29.456c-5.728 0.613-11.046 1.023-16.364 1.227-1.637-18.819-2.864-37.842-4.5-58.093h17.387z m-384.972 0.409c2.864 0 4.296 1.023 4.296 4.5v53.184l-21.07-1.023V445.52h16.774z m412.382 0c2.864 0 4.295 1.023 4.295 4.5v53.184l-21.069-1.023V445.52h16.774z m-572.753-3.273c2.66-0.41 1.841 1.84 2.455 3.477l1.84 19.228c1.024 10.228 2.455 19.842 3.274 30.07v3.887l-15.751 2.659c-3.477-18.82-6.75-37.638-10.228-56.866 6.137-0.614 12.069-2.046 18.41-2.455z m412.382 0c2.66-0.41 1.841 1.84 2.455 3.477l1.84 19.228c1.023 10.228 2.455 19.842 3.274 30.07v3.887l-15.751 2.659c-3.478-18.82-6.75-37.638-10.228-56.866 6.137-0.614 12.069-2.046 18.41-2.455z m-384.767-3.273c1.841 0 2.864 1.227 3.477 3.477 1.637 18.001 3.273 35.388 5.319 53.798-6.75 0.819-13.296 1.023-20.456 1.637l-7.364-58.503c6.342-0.409 12.683-0.409 19.024-0.409z m412.382 0c1.84 0 2.864 1.227 3.273 3.477 1.636 18.001 3.273 35.388 5.318 53.798-6.75 0.819-13.296 1.023-20.455 1.637l-7.364-58.503c6.546-0.409 13.091-0.409 19.228-0.409z m0 0" fill="#FFFFFF" p-id="15753"></path><path d="M208.443 596.072c2.864 21.069 5.932 42.138 8.796 64.025 18-13.5 34.978-26.592 52.366-39.683-2.455-2.864-49.912-21.887-61.162-24.342z m412.382 0c2.863 21.069 5.727 42.138 8.796 64.025 18-13.5 34.978-26.592 52.366-39.683-2.455-2.864-49.912-21.887-61.162-24.342z m0 0" fill="#F66E98" p-id="15754"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.douyin.com/'
+                        target="_blank"
+                        title="Douyin"
+                        rel="me"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1719553871479" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="17689" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><path d="M32 511.776c0 264.96 214.784 479.744 479.776 479.744 264.96 0 479.744-214.784 479.744-479.744C991.52 246.816 776.736 32 511.776 32 246.816 32 32 246.784 32 511.776z" fill="#170B1A" p-id="17690"></path><path d="M512.256 347.2c0.448-50.368 0-101.216 0.448-151.616h103.168c-0.48 9.12 0.96 17.76 2.4 26.4l-70.528 5.76 5.76 403.968c0.48 17.28-12 56.128-20.64 71.008-13.44 23.04-54.208 44.128-81.088 46.528-16.768 1.44-29.248-2.88-44.608-11.04-11.52-6.24-17.76-40.768-21.12-49.92 26.4 14.912 60.96 13.44 86.4-3.328a88.128 88.128 0 0 0 40.736-73.408c-0.96-88.288-0.96-176.544-0.96-264.32z m169.824-29.248c14.4 9.088 30.72 16.32 47.488 19.648 10.08 2.4 19.68 3.36 29.76 3.36v27.84c-29.76-6.72-94.048-25.44-77.248-50.88z" fill="#25F4EE" p-id="17691"></path><path d="M326.08 447.008a188.032 188.032 0 0 1 125.216-26.4v31.68c-40.288 0.96-73.856 18.24-106.496 42.208-24.448 18.24-41.28 36.928-54.208 64.768-12.48 26.368-17.76 48.448-17.28 77.728 0 32.128 8.64 55.168 24 83.456 7.2 12.96 21.12 32.64 17.76 47.04a185.92 185.92 0 0 1-53.76-59.04 193.6 193.6 0 0 1-26.368-103.136 195.52 195.52 0 0 1 28.288-94.496 186.08 186.08 0 0 1 62.848-63.808z" fill="#25F4EE" p-id="17692"></path><path d="M541.984 221.984h77.248c12 20.64 11.04 28.32 17.76 41.28 10.56 20.608 18.688 28.288 41.728 51.328a11.2 11.2 0 0 1 3.36 3.36c20.16 23.04 47.488 39.328 77.248 46.048 17.28 12.48 5.28 62.848 5.28 89.696-50.4 0.48-101.728-19.2-142.496-48.928 0 64.32 0 123.776 0.48 188.544 0 8.64 0.48 16.8 0 25.92-2.4 31.168-16.8 76.768-32.64 103.616a197.888 197.888 0 0 1-53.728 60.928 172 172 0 0 1-97.856 33.6 219.936 219.936 0 0 1-53.28-4.32c-24.448-5.28-47.968-29.76-68.576-44.16l-1.44-1.408c-10.08-10.56-19.2-22.56-25.92-36-15.36-27.84-24-59.488-24-91.616a192 192 0 0 1 18.24-84.928c12.96-27.84 32.16-52.8 56.128-71.04a194.24 194.24 0 0 1 111.296-38.816c11.04 5.248 3.36 86.336 3.36 86.336-12.928-4.32-30.208-2.88-43.648 0.48-16.32 3.36-24.96 12.96-37.44 23.52-7.68 6.72-14.4 13.92-18.688 23.04-8.16 15.36-7.68 17.28-6.24 34.528 1.92 16.32 4.8 34.048 15.84 46.528 7.2 9.12 12 23.04 21.568 29.28 7.68 12.48 17.76 21.568 28.8 26.88 15.36 8.128 32.64 11.52 49.408 10.048 26.88-1.92 51.84-18.24 65.28-41.728 8.64-15.36 12.448-35.04 12.448-51.84 0-141.504 0.48-410.176 0.48-410.176z" fill="#FFFFFF" p-id="17693"></path><path d="M618.24 221.984c9.152 0.48 17.792 0 27.36 0 0 29.76 9.6 59.968 26.88 84.448 2.4 3.36 4.32 6.24 6.72 8.64-19.68-12-35.04-30.72-45.568-51.36-6.72-12.48-12-26.88-15.36-41.728z m141.088 142.016c10.048 2.4 19.648 3.36 29.76 3.36v104.096c-50.88 0.48-101.76-16.32-143.488-46.528v206.784c0.48 15.808-0.96 31.168-4.32 46.528a192 192 0 0 1-75.776 115.616 181.216 181.216 0 0 1-68.16 30.24c-29.728 6.72-60.416 6.24-89.216-1.44a189.888 189.888 0 0 1-91.136-54.72c20.608 14.88 44.128 24.48 69.056 29.76 17.28 3.84 35.52 4.8 53.28 4.32a172 172 0 0 0 97.856-33.6 198.624 198.624 0 0 0 53.76-60.928 211.136 211.136 0 0 0 27.808-89.216 233.28 233.28 0 0 0 0-25.92c-0.96-63.808-0.96-128.096-0.96-192.384a240.32 240.32 0 0 0 142.016 45.12c-0.48-26.88 0-54.24-0.48-81.088z" fill="#FE2C55" p-id="17694"></path><path d="M451.296 444.608c10.08 0 20.64 0.48 30.24 1.92v106.976a84.672 84.672 0 0 0-45.12-1.92c-28.288 6.24-51.808 27.84-61.856 55.168-10.08 26.88-6.24 58.56 10.56 81.568-10.08-5.76-18.24-13.44-25.44-22.56-10.56-12.48-17.76-28.8-19.68-45.12-1.92-16.768 0.96-35.008 9.12-49.856 4.32-9.12 11.04-16.8 18.72-23.52 12.48-10.56 28.288-17.28 43.648-21.6 12.96-2.88 26.88-3.36 39.36 0.96 0.448-4.32 0.448-71.488 0.448-82.016z" fill="#FE2C55" p-id="17695"></path></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+                    
+                        <li id="i18n-switch">  
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
+                                
+                                    <option value="http://localhost:61614/en/" >English</option>
+                                
+                                    <option value="http://localhost:61614/" selected>中文</option>
+                                
+                                    <option value="http://localhost:61614/ar/" >عربي</option>
+                                
+                            </select>
+                        </li>
+                    
+                
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#s">s</a>
+      <ol>
+        <li><a href="#配置github-pages">配置GitHub Pages</a></li>
+      </ol>
+    </li>
+    <li><a href="#扩展">扩展</a></li>
+    <li><a href="#配置stack主题">配置Stack主题</a></li>
+    <li><a href="#q--a">Q &amp; A</a>
+      <ol>
+        <li><a href="#克隆项目时子模块没有被自动克隆">克隆项目时，子模块没有被自动克隆？</a></li>
+        <li><a href="#帖子内的目录展示不正常">帖子内的目录展示不正常？</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考资料">参考资料</a>
+      <ol>
+        <li><a href="#stack主题相关">Stack主题相关</a></li>
+        <li><a href="#精品博客网站欣赏">精品博客网站欣赏</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%23hugo%23stack/" >
+                #HuGo#Stack
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/hugo-stack-guide/">HuGo Stack主题使用指南</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 02, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="s">s
+</h2><h3 id="配置github-pages">配置GitHub Pages
+</h3><p>在浏览器打开<code>HTML 文件远程仓库</code>的Setting页面<a class="link" href="https://github.com/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d/$%7b%e4%bd%a0%e7%9a%84GitHub%e7%94%a8%e6%88%b7%e5%90%8d%7d.github.io/settings"  target="_blank" rel="noopener"
+    >https://github.com/${你的GitHub用户名}/${你的GitHub用户名}.github.io/settings</a></p>
+<h2 id="扩展">扩展
+</h2><h2 id="配置stack主题">配置Stack主题
+</h2><p><a class="link" href="http://localhost:61614/p/hugo-stack-guide/" >举个例子</a></p>
+<h2 id="q--a">Q &amp; A
+</h2><h3 id="克隆项目时子模块没有被自动克隆">克隆项目时，子模块没有被自动克隆？
+</h3><p>默认情况下子模块不会被自动克隆。你需要执行一些额外的命令来初始化并更新子模块。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">git submodule update --init --recursive
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="帖子内的目录展示不正常">帖子内的目录展示不正常？
+</h3><p>不要写一级标题，从二级标题开始</p>
+<h2 id="参考资料">参考资料
+</h2><h3 id="stack主题相关">Stack主题相关
+</h3><ul>
+<li><a class="link" href="https://demo.stack.jimmycai.com/"  target="_blank" rel="noopener"
+    >官方示例博客网站</a></li>
+<li><a class="link" href="https://stack.jimmycai.com/config/sidebar"  target="_blank" rel="noopener"
+    >官方文档</a></li>
+<li><a class="link" href="https://stack-docs.netlify.app/zh/writing/"  target="_blank" rel="noopener"
+    >官方文档-中文</a></li>
+<li><a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/#quickstart"  target="_blank" rel="noopener"
+    >Stack主题HuGo项目快速开始</a></li>
+</ul>
+<h3 id="精品博客网站欣赏">精品博客网站欣赏
+</h3><ul>
+<li><a class="link" href="https://thirdshire.com/hugo-stack-renovation-part-two/#:~:text=%E5%9C%A8assets%2Fscss%2Fpartials%2Farticle.scss%E9%87%8C%E6%89%BE%E5%88%B0.article-list--compact,%E5%B9%B6%E5%A2%9E%E5%8A%A0.article-link%20%E6%A0%B7%E5%BC%8F%E3%80%82"  target="_blank" rel="noopener"
+    >Hugo Stack 第三夏尔 | Third Shire</a><br>
+支持评论、聊天室</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/stack/">Stack</a>
+        
+            <a href="/tags/hugo/">HuGo</a>
+        
+            <a href="/tags/go/">Go</a>
+        
+            <a href="/tags/windows/">Windows</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/">
+        
+        
+            <div class="article-image">
+                <img src="/p/360%E6%97%A0%E6%AD%BB%E8%A7%92%E8%AE%B0%E5%BD%95hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%96%B9%E5%BC%8F%E4%B8%80/hugoblog.3d58b9ac981e19a174c00660fe2b3f93_hu762191763670d76317483cc2e1c12c16_159252_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 360°无死角记录HuGo博客搭建（方式一）"
+                        
+                        data-hash="md5-PVi5rJgeGaF0wAZg/is/kw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">360°无死角记录HuGo博客搭建（方式一）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 Example Person
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.26.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
