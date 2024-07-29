@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>FanPin on Somi 博客</title>
-        <link>http://localhost:61614/tags/fanpin/</link>
+        <link>https://pierai.github.io/tags/fanpin/</link>
         <description>Recent content in FanPin on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 24 Jul 2024 16:45:59 +0800</lastBuildDate><atom:link href="http://localhost:61614/tags/fanpin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Jul 2024 16:45:59 +0800</lastBuildDate><atom:link href="https://pierai.github.io/tags/fanpin/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>FanPin接口业务逻辑状态码和响应码体系</title>
-        <link>http://localhost:61614/p/fanpin%E6%8E%A5%E5%8F%A3%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%8A%B6%E6%80%81%E7%A0%81%E5%92%8C%E5%93%8D%E5%BA%94%E7%A0%81%E4%BD%93%E7%B3%BB/</link>
+        <link>https://pierai.github.io/p/fanpin%E6%8E%A5%E5%8F%A3%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%8A%B6%E6%80%81%E7%A0%81%E5%92%8C%E5%93%8D%E5%BA%94%E7%A0%81%E4%BD%93%E7%B3%BB/</link>
         <pubDate>Wed, 24 Jul 2024 16:45:59 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/fanpin%E6%8E%A5%E5%8F%A3%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%8A%B6%E6%80%81%E7%A0%81%E5%92%8C%E5%93%8D%E5%BA%94%E7%A0%81%E4%BD%93%E7%B3%BB/</guid>
+        <guid>https://pierai.github.io/p/fanpin%E6%8E%A5%E5%8F%A3%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E7%8A%B6%E6%80%81%E7%A0%81%E5%92%8C%E5%93%8D%E5%BA%94%E7%A0%81%E4%BD%93%E7%B3%BB/</guid>
         <description>&lt;p&gt;在设计后端接口的状态码和响应码体系时，我们需要考虑 HTTP 状态码与业务逻辑状态码的结合。HTTP 状态码用于描述 HTTP 请求的状态，而业务逻辑状态码（通常称为 &lt;code&gt;code&lt;/code&gt;）用于描述应用程序特定的状态或错误。以下是一个推荐的设计方案：&lt;/p&gt;
 &lt;h3 id=&#34;http-状态码&#34;&gt;HTTP 状态码
 &lt;/h3&gt;&lt;ul&gt;
@@ -269,11 +269,11 @@
         </item>
         <item>
         <title>FanPin生产服务器使用指南</title>
-        <link>http://localhost:61614/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+        <link>https://pierai.github.io/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
         <pubDate>Tue, 02 Jul 2024 15:22:39 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;img src="http://localhost:61614/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8.jpg" alt="Featured image of post FanPin生产服务器使用指南" /&gt;&lt;h2 id=&#34;生产环境服务器配置&#34;&gt;生产环境服务器配置
+        <guid>https://pierai.github.io/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="https://pierai.github.io/p/fanpin%E7%94%9F%E4%BA%A7%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E6%9C%8D%E5%8A%A1%E5%99%A8.jpg" alt="Featured image of post FanPin生产服务器使用指南" /&gt;&lt;h2 id=&#34;生产环境服务器配置&#34;&gt;生产环境服务器配置
 &lt;/h2&gt;&lt;p&gt;CPU 4核    内存 8GB&lt;br&gt;
 带宽：5Mbps&lt;br&gt;
 系统：Ubuntu 22.04 64位&lt;br&gt;
@@ -310,11 +310,11 @@
         </item>
         <item>
         <title>FanPin后台管理服务指南</title>
-        <link>http://localhost:61614/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/</link>
+        <link>https://pierai.github.io/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/</link>
         <pubDate>Tue, 02 Jul 2024 15:11:24 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;img src="http://localhost:61614/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/background.png" alt="Featured image of post FanPin后台管理服务指南" /&gt;&lt;h2 id=&#34;生产环境上线指南&#34;&gt;生产环境上线指南
+        <guid>https://pierai.github.io/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="https://pierai.github.io/p/fanpin%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1%E6%8C%87%E5%8D%97/background.png" alt="Featured image of post FanPin后台管理服务指南" /&gt;&lt;h2 id=&#34;生产环境上线指南&#34;&gt;生产环境上线指南
 &lt;/h2&gt;&lt;h3 id=&#34;生产环境部署&#34;&gt;生产环境部署
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
@@ -377,11 +377,11 @@
         </item>
         <item>
         <title>FanPin Web指南</title>
-        <link>http://localhost:61614/p/fanpin-web%E6%8C%87%E5%8D%97/</link>
+        <link>https://pierai.github.io/p/fanpin-web%E6%8C%87%E5%8D%97/</link>
         <pubDate>Mon, 01 Jul 2024 16:51:15 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/fanpin-web%E6%8C%87%E5%8D%97/</guid>
-        <description>&lt;img src="http://localhost:61614/p/fanpin-web%E6%8C%87%E5%8D%97/background.jpg" alt="Featured image of post FanPin Web指南" /&gt;&lt;h2 id=&#34;生产环境上线指南&#34;&gt;生产环境上线指南
+        <guid>https://pierai.github.io/p/fanpin-web%E6%8C%87%E5%8D%97/</guid>
+        <description>&lt;img src="https://pierai.github.io/p/fanpin-web%E6%8C%87%E5%8D%97/background.jpg" alt="Featured image of post FanPin Web指南" /&gt;&lt;h2 id=&#34;生产环境上线指南&#34;&gt;生产环境上线指南
 &lt;/h2&gt;&lt;h3 id=&#34;项目配置&#34;&gt;项目配置
 &lt;/h3&gt;&lt;h4 id=&#34;请求地址和nginx反向代理后端服务匹配前缀&#34;&gt;请求地址和Nginx反向代理后端服务匹配前缀
 &lt;/h4&gt;&lt;ol&gt;

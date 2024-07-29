@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61614&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="虽然 Vue Router 仍然支持 next 方法，但确实不再推荐使用它，并且官方文档中也建议避免使用。在 Vue 3 中，你可以通过返回一个 Promise 或直接返回一个路由路径来处理导航守卫逻辑，而不必使用 next 方法。 以下是如何在全局导航守卫中实现 token 检查和重定向，而不使用 next 方法： 配置 Vue Router\r在 src/router/index.js 中配置路由，并添加全局前置守卫： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.vue&#39;; import Login from &#39;@/views/Login.vue&#39;; const routes = [ { path: &#39;/&#39;, component: Home, meta: { requiresAuth: true } }, { path: &#39;/login&#39;, component: Login }, ]; const router = createRouter({ history: createWebHistory(), routes, }); router.">
 <title>Vue Router 导航守卫</title>
 
-<link rel='canonical' href='http://localhost:61614/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/'>
+<link rel='canonical' href='https://pierai.github.io/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Vue Router 导航守卫">
 <meta property='og:description' content="虽然 Vue Router 仍然支持 next 方法，但确实不再推荐使用它，并且官方文档中也建议避免使用。在 Vue 3 中，你可以通过返回一个 Promise 或直接返回一个路由路径来处理导航守卫逻辑，而不必使用 next 方法。 以下是如何在全局导航守卫中实现 token 检查和重定向，而不使用 next 方法： 配置 Vue Router\r在 src/router/index.js 中配置路由，并添加全局前置守卫： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.vue&#39;; import Login from &#39;@/views/Login.vue&#39;; const routes = [ { path: &#39;/&#39;, component: Home, meta: { requiresAuth: true } }, { path: &#39;/login&#39;, component: Login }, ]; const router = createRouter({ history: createWebHistory(), routes, }); router.">
-<meta property='og:url' content='http://localhost:61614/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/'>
+<meta property='og:url' content='https://pierai.github.io/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/'>
 <meta property='og:site_name' content='Somi 博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:published_time' content='2024-07-19T17:00:23&#43;08:00'/><meta property='article:modified_time' content='2024-07-19T17:00:23&#43;08:00'/>
 <meta name="twitter:title" content="Vue Router 导航守卫">
@@ -264,11 +264,11 @@
 
                             <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
                                 
-                                    <option value="http://localhost:61614/en/" >English</option>
+                                    <option value="https://pierai.github.io/en/" >English</option>
                                 
-                                    <option value="http://localhost:61614/" selected>中文</option>
+                                    <option value="https://pierai.github.io/" selected>中文</option>
                                 
-                                    <option value="http://localhost:61614/ar/" >عربي</option>
+                                    <option value="https://pierai.github.io/ar/" >عربي</option>
                                 
                             </select>
                         </li>

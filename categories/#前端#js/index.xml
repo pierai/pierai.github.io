@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>#前端#JS on Somi 博客</title>
-        <link>http://localhost:61614/categories/%23%E5%89%8D%E7%AB%AF%23js/</link>
+        <link>https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23js/</link>
         <description>Recent content in #前端#JS on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 09 Jul 2024 10:41:47 +0800</lastBuildDate><atom:link href="http://localhost:61614/categories/%23%E5%89%8D%E7%AB%AF%23js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 09 Jul 2024 10:41:47 +0800</lastBuildDate><atom:link href="https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23js/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ES Module和CommonJS解析</title>
-        <link>http://localhost:61614/p/es-module%E5%92%8Ccommonjs%E8%A7%A3%E6%9E%90/</link>
+        <link>https://pierai.github.io/p/es-module%E5%92%8Ccommonjs%E8%A7%A3%E6%9E%90/</link>
         <pubDate>Tue, 09 Jul 2024 10:41:47 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/es-module%E5%92%8Ccommonjs%E8%A7%A3%E6%9E%90/</guid>
+        <guid>https://pierai.github.io/p/es-module%E5%92%8Ccommonjs%E8%A7%A3%E6%9E%90/</guid>
         <description>&lt;h2 id=&#34;commonjs模块的导入和导出&#34;&gt;CommonJS模块的导入和导出
 &lt;/h2&gt;&lt;p&gt;在 CommonJS 模块系统中，确实没有默认导出的概念。在 CommonJS 中，你可以使用 &lt;code&gt;module.exports&lt;/code&gt; 或者 &lt;code&gt;exports&lt;/code&gt; 来导出模块中的内容，但是没有像 ES6 中的默认导出那样的语法。例如，在 CommonJS 中，你可以这样导出一个模块：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

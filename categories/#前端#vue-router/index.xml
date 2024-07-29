@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>#前端#Vue Router on Somi 博客</title>
-        <link>http://localhost:61614/categories/%23%E5%89%8D%E7%AB%AF%23vue-router/</link>
+        <link>https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23vue-router/</link>
         <description>Recent content in #前端#Vue Router on Somi 博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Mon, 22 Jul 2024 16:21:05 +0800</lastBuildDate><atom:link href="http://localhost:61614/categories/%23%E5%89%8D%E7%AB%AF%23vue-router/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 22 Jul 2024 16:21:05 +0800</lastBuildDate><atom:link href="https://pierai.github.io/categories/%23%E5%89%8D%E7%AB%AF%23vue-router/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>嵌套路由和命名视图的使用</title>
-        <link>http://localhost:61614/p/%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1%E5%92%8C%E5%91%BD%E5%90%8D%E8%A7%86%E5%9B%BE%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <link>https://pierai.github.io/p/%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1%E5%92%8C%E5%91%BD%E5%90%8D%E8%A7%86%E5%9B%BE%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Mon, 22 Jul 2024 16:21:05 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1%E5%92%8C%E5%91%BD%E5%90%8D%E8%A7%86%E5%9B%BE%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <guid>https://pierai.github.io/p/%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1%E5%92%8C%E5%91%BD%E5%90%8D%E8%A7%86%E5%9B%BE%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
         <description>&lt;h2 id=&#34;嵌套路由&#34;&gt;嵌套路由
 &lt;/h2&gt;&lt;p&gt;Vue Router 提供了多层次的路由视图功能。每个 &lt;router-view&gt; 标签都表示一个嵌套路由视图。这使得在同一个应用中可以实现复杂的嵌套布局和路由逻辑。&lt;/p&gt;
 &lt;p&gt;在项目中包含多个 &lt;code&gt;&amp;lt;router-view&amp;gt;&lt;/code&gt; 标签，这是因为 Vue Router 允许嵌套路由。详细解释：&lt;/p&gt;
@@ -119,10 +119,10 @@
         </item>
         <item>
         <title>Mockjs</title>
-        <link>http://localhost:61614/p/mockjs/</link>
+        <link>https://pierai.github.io/p/mockjs/</link>
         <pubDate>Sun, 21 Jul 2024 20:02:14 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/mockjs/</guid>
+        <guid>https://pierai.github.io/p/mockjs/</guid>
         <description>&lt;h2 id=&#34;配置项解释&#34;&gt;配置项解释
 &lt;/h2&gt;&lt;p&gt;这个配置使用了 &lt;code&gt;vite-plugin-mock&lt;/code&gt; 插件来简化 Mock.js 的集成，具体配置项如下：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -370,10 +370,10 @@
         </item>
         <item>
         <title>Vue Router 导航守卫</title>
-        <link>http://localhost:61614/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/</link>
+        <link>https://pierai.github.io/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/</link>
         <pubDate>Fri, 19 Jul 2024 17:00:23 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/</guid>
+        <guid>https://pierai.github.io/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/</guid>
         <description>&lt;p&gt;虽然 Vue Router 仍然支持 &lt;code&gt;next&lt;/code&gt; 方法，但确实不再推荐使用它，并且官方文档中也建议避免使用。在 Vue 3 中，你可以通过返回一个 &lt;code&gt;Promise&lt;/code&gt; 或直接返回一个路由路径来处理导航守卫逻辑，而不必使用 &lt;code&gt;next&lt;/code&gt; 方法。&lt;/p&gt;
 &lt;p&gt;以下是如何在全局导航守卫中实现 token 检查和重定向，而不使用 &lt;code&gt;next&lt;/code&gt; 方法：&lt;/p&gt;
 &lt;h3 id=&#34;配置-vue-router&#34;&gt;配置 Vue Router
@@ -560,10 +560,10 @@
         </item>
         <item>
         <title>Vue3-Bear-Admin 路由指南</title>
-        <link>http://localhost:61614/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/</link>
+        <link>https://pierai.github.io/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/</link>
         <pubDate>Tue, 16 Jul 2024 11:25:52 +0800</pubDate>
         
-        <guid>http://localhost:61614/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/</guid>
+        <guid>https://pierai.github.io/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/</guid>
         <description>&lt;h2 id=&#34;基本概念&#34;&gt;基本概念
 &lt;/h2&gt;&lt;p&gt;路由导航（Routing Navigation）是管理和切换应用程序页面的过程。&lt;/p&gt;
 &lt;h3 id=&#34;路由基础&#34;&gt;路由基础
@@ -789,10 +789,10 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;navigationguardwiththis&#34;&gt;NavigationGuardWithThis
 &lt;/h4&gt;&lt;h3 id=&#34;官方文档不推荐使用next方法&#34;&gt;官方文档不推荐使用&lt;code&gt;next&lt;/code&gt;方法
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:61614/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://pierai.github.io/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice.png&#34;
 	width=&#34;1364&#34;
 	height=&#34;518&#34;
-	srcset=&#34;http://localhost:61614/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice_hud4720c11337c123b35a2f0689610d33b_66152_480x0_resize_box_3.png 480w, http://localhost:61614/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice_hud4720c11337c123b35a2f0689610d33b_66152_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://pierai.github.io/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice_hud4720c11337c123b35a2f0689610d33b_66152_480x0_resize_box_3.png 480w, https://pierai.github.io/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/next_advice_hud4720c11337c123b35a2f0689610d33b_66152_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;image&#34;
@@ -803,7 +803,7 @@
 		data-flex-basis=&#34;631px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;更多信息参考：&lt;a class=&#34;link&#34; href=&#34;http://localhost:61614/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/&#34; &gt;Vue Router next方法平替&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;更多信息参考：&lt;a class=&#34;link&#34; href=&#34;https://pierai.github.io/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/&#34; &gt;Vue Router next方法平替&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;公共路由定义&#34;&gt;公共路由定义
 &lt;/h2&gt;&lt;p&gt;定义用户都会有的公共页面的路由。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

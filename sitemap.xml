@@ -2,19 +2,19 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:61614/zh-cn/sitemap.xml</loc>
+    <loc>https://pierai.github.io/zh-cn/sitemap.xml</loc>
     
       <lastmod>2024-07-26T16:53:32+08:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:61614/en/sitemap.xml</loc>
+    <loc>https://pierai.github.io/en/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:61614/ar/sitemap.xml</loc>
+    <loc>https://pierai.github.io/ar/sitemap.xml</loc>
     
   </sitemap>
   
