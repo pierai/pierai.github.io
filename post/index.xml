@@ -7,13 +7,58 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 26 Jul 2024 16:53:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Jul 2024 10:30:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown 写作技巧</title>
+        <link>http://localhost:1313/p/markdown-%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Tue, 30 Jul 2024 10:30:14 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/markdown-%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</guid>
+        <description>&lt;h2 id=&#34;怎么对文章分类和打标签&#34;&gt;怎么对文章分类和打标签
+&lt;/h2&gt;&lt;p&gt;在网站和博客管理中，Tag（标签）和Category（分类）是用于组织和分类内容的两个重要概念，它们有不同的作用和使用方式。&lt;/p&gt;
+&lt;h3 id=&#34;category分类&#34;&gt;Category（分类）
+&lt;/h3&gt;&lt;p&gt;分类是一种对文章进行层次化管理的方法，通常用于创建内容的大类，帮助用户更容易浏览和找到感兴趣的内容。分类是结构性的，每篇文章通常只会属于一个或少数几个分类。&lt;/p&gt;
+&lt;p&gt;例如，你的博客可能有以下分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前端开发&lt;/li&gt;
+&lt;li&gt;后端开发&lt;/li&gt;
+&lt;li&gt;项目管理&lt;/li&gt;
+&lt;li&gt;工具使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tag标签&#34;&gt;Tag（标签）
+&lt;/h3&gt;&lt;p&gt;标签是一种更自由、更灵活的内容分类方法，通常用于描述文章的具体内容或主题关键词。标签是扁平结构的，一篇文章可以有多个标签。标签的主要目的是细化分类，帮助用户通过关键词快速找到相关内容。&lt;/p&gt;
+&lt;p&gt;例如，对于一篇关于 Vue Router 的文章，你可以使用以下标签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue Router&lt;/li&gt;
+&lt;li&gt;Vue.js&lt;/li&gt;
+&lt;li&gt;前端框架&lt;/li&gt;
+&lt;li&gt;路由管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;具体应用举例&#34;&gt;具体应用举例
+&lt;/h3&gt;&lt;p&gt;假设你写了一篇关于在某个前端项目中使用 Vue Router 的文章，你可以这样分类和打标签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Category（分类）&lt;/strong&gt;：前端开发&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags（标签）&lt;/strong&gt;：Vue Router, Vue.js, 前端项目, 路由管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样，当用户浏览你的博客时，他们可以通过“前端开发”分类找到你的文章，也可以通过点击任何一个标签找到与这些标签相关的其他文章。&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分类（Category）&lt;/strong&gt;：用于创建内容的大类，层次化管理，适合为文章进行整体分类。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标签（Tag）&lt;/strong&gt;：用于描述具体内容或主题关键词，扁平化管理，适合为文章进行细化分类。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望这些解释对你有所帮助！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>动态路由使用</title>
         <link>http://localhost:1313/p/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Fri, 26 Jul 2024 16:53:32 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;h2 id=&#34;routerreplace方法的使用场景&#34;&gt;router.replace()方法的使用场景
+        <description>&lt;h2 id=&#34;api&#34;&gt;API
+&lt;/h2&gt;&lt;h3 id=&#34;routeraddroute-和-routerremoveroute&#34;&gt;router.addRoute() 和 router.removeRoute()
+&lt;/h3&gt;&lt;p&gt;只能注册，此时的新路由记录处于未被激活状态，无法被访问。需要调用&lt;code&gt;router.push()&lt;/code&gt; 和 &lt;code&gt;router.replace()&lt;/code&gt;手动导航后才能显示该新路由&lt;/p&gt;
+&lt;h3 id=&#34;routerpush-和-routerreplace&#34;&gt;router.push() 和 router.replace()
+&lt;/h3&gt;&lt;h2 id=&#34;routerreplace方法的使用场景&#34;&gt;router.replace()方法的使用场景
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;router.replace&lt;/code&gt; 是 Vue Router 提供的一个方法，用于替换当前的路由。这与 &lt;code&gt;router.push&lt;/code&gt; 类似，但不同的是，&lt;code&gt;router.replace&lt;/code&gt; 不会向历史记录添加新条目，而是替换当前的历史记录条目。因此，当使用 &lt;code&gt;router.replace&lt;/code&gt; 进行导航时，用户无法通过点击浏览器的“返回”按钮回到先前的页面。&lt;/p&gt;
 &lt;p&gt;以下是一些使用 &lt;code&gt;router.replace&lt;/code&gt; 的典型场景：&lt;/p&gt;
 &lt;ol&gt;

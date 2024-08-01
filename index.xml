@@ -7,14 +7,236 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Fri, 26 Jul 2024 16:53:32 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Jul 2024 10:30:14 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown 写作技巧</title>
+        <link>http://localhost:1313/p/markdown-%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</link>
+        <pubDate>Tue, 30 Jul 2024 10:30:14 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/markdown-%E5%86%99%E4%BD%9C%E6%8A%80%E5%B7%A7/</guid>
+        <description>&lt;h2 id=&#34;怎么对文章分类和打标签&#34;&gt;怎么对文章分类和打标签
+&lt;/h2&gt;&lt;p&gt;在网站和博客管理中，Tag（标签）和Category（分类）是用于组织和分类内容的两个重要概念，它们有不同的作用和使用方式。&lt;/p&gt;
+&lt;h3 id=&#34;category分类&#34;&gt;Category（分类）
+&lt;/h3&gt;&lt;p&gt;分类是一种对文章进行层次化管理的方法，通常用于创建内容的大类，帮助用户更容易浏览和找到感兴趣的内容。分类是结构性的，每篇文章通常只会属于一个或少数几个分类。&lt;/p&gt;
+&lt;p&gt;例如，你的博客可能有以下分类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前端开发&lt;/li&gt;
+&lt;li&gt;后端开发&lt;/li&gt;
+&lt;li&gt;项目管理&lt;/li&gt;
+&lt;li&gt;工具使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tag标签&#34;&gt;Tag（标签）
+&lt;/h3&gt;&lt;p&gt;标签是一种更自由、更灵活的内容分类方法，通常用于描述文章的具体内容或主题关键词。标签是扁平结构的，一篇文章可以有多个标签。标签的主要目的是细化分类，帮助用户通过关键词快速找到相关内容。&lt;/p&gt;
+&lt;p&gt;例如，对于一篇关于 Vue Router 的文章，你可以使用以下标签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue Router&lt;/li&gt;
+&lt;li&gt;Vue.js&lt;/li&gt;
+&lt;li&gt;前端框架&lt;/li&gt;
+&lt;li&gt;路由管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;具体应用举例&#34;&gt;具体应用举例
+&lt;/h3&gt;&lt;p&gt;假设你写了一篇关于在某个前端项目中使用 Vue Router 的文章，你可以这样分类和打标签：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Category（分类）&lt;/strong&gt;：前端开发&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags（标签）&lt;/strong&gt;：Vue Router, Vue.js, 前端项目, 路由管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样，当用户浏览你的博客时，他们可以通过“前端开发”分类找到你的文章，也可以通过点击任何一个标签找到与这些标签相关的其他文章。&lt;/p&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分类（Category）&lt;/strong&gt;：用于创建内容的大类，层次化管理，适合为文章进行整体分类。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;标签（Tag）&lt;/strong&gt;：用于描述具体内容或主题关键词，扁平化管理，适合为文章进行细化分类。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望这些解释对你有所帮助！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>动态路由使用</title>
         <link>http://localhost:1313/p/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BD%BF%E7%94%A8/</link>
         <pubDate>Fri, 26 Jul 2024 16:53:32 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;h2 id=&#34;routerreplace方法的使用场景&#34;&gt;router.replace()方法的使用场景
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;router.replace&lt;/code&gt; 是 Vue Router 提供的一个方法，用于替换当前的路由。这与 &lt;code&gt;router.push&lt;/code&gt; 类似，但不同的是，&lt;code&gt;router.replace&lt;/code&gt; 不会向历史记录添加新条目，而是替换当前的历史记录条目。因此，当使用 &lt;code&gt;router.replace&lt;/code&gt; 进行导航时，用户无法通过点击浏览器的“返回”按钮回到先前的页面。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;api&#34;&gt;API
+&lt;/h2&gt;&lt;h3 id=&#34;routeraddroute-和-routerremoveroute&#34;&gt;router.addRoute() 和 router.removeRoute()
+&lt;/h3&gt;&lt;p&gt;如果新增加的路由与&lt;em&gt;&lt;strong&gt;当前位置&lt;/strong&gt;&lt;/em&gt;相匹配，就需要你用 &lt;code&gt;router.push()&lt;/code&gt; 或 &lt;code&gt;router.replace()&lt;/code&gt; 来手动导航，才能显示该新路由&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;并不是说不能使用导航守卫提供的&lt;code&gt;next&lt;/code&gt;或&lt;code&gt;return&lt;/code&gt;重新导航后不能显示该新路由，而是&lt;code&gt;router.push()&lt;/code&gt; 或 &lt;code&gt;router.replace()&lt;/code&gt;可以在任何地方使用，不仅限于导航守卫。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;routerpush-和-routerreplace&#34;&gt;router.push() 和 router.replace()
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;router.push(location)：将路径添加到浏览器的历史记录中，进行导航。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;router.replace(location)：替换当前的历史记录条目，而不添加新的条目。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;适用于非导航守卫中的动态导航。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需要手动控制导航流程。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可能导致导航守卫不一致（在某些复杂场景下）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;会重新执行导航守卫&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;删除路由&#34;&gt;删除路由
+&lt;/h3&gt;&lt;p&gt;当路由被删除时，所有的别名和子路由也会被同时删除&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以通过&lt;code&gt;name&lt;/code&gt;删除，所以请保持&lt;code&gt;name&lt;/code&gt;值唯一&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;添加嵌套路由&#34;&gt;添加嵌套路由
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addRoute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;admin&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/admin&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;component&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;Admin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;children&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;settings&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;component&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;AdminSettings&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;查看现有路由&#34;&gt;查看现有路由
+&lt;/h3&gt;&lt;p&gt;Vue Router 提供了两个功能来查看现有的路由：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;router.hasRoute()：检查路由是否存在。&lt;/li&gt;
+&lt;li&gt;router.getRoutes()：获取一个包含所有路由记录的数组。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手动导航的三种方式的区别&#34;&gt;手动导航的三种方式的区别
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;&lt;code&gt;router.replace()&lt;/code&gt; 和 &lt;code&gt;next({ ...to, replace: true })&lt;/code&gt;、&lt;code&gt;return { ...to, replace: true }&lt;/code&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;router.replace()&lt;/code&gt; 和 &lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 在功能上有些相似，但它们的使用场景和细节上有一些区别。&lt;/p&gt;
+&lt;h3 id=&#34;routerreplace&#34;&gt;&lt;code&gt;router.replace()&lt;/code&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：&lt;code&gt;router.replace()&lt;/code&gt; 是一个方法，可以在任何地方使用，不仅限于导航守卫。它会立即执行导航，并用新的路由替换当前的路由，而不会在浏览历史中留下记录。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调用位置&lt;/strong&gt;：可以在组件方法或导航守卫中使用。记住，如果你需要等待新的路由显示，可以使用 &lt;code&gt;await router.replace()&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行为&lt;/strong&gt;：导航到新的路由并替换当前的路由，旧的路由不会出现在历史记录中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/new-path&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/em&gt; &lt;span style=&#34;color: red;&#34;&gt;在导航守卫中，更推荐使用&lt;code&gt;next&lt;/code&gt;或&lt;code&gt;return&lt;/code&gt;来通过返回新的位置来触发重定向&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;next-to-replace-true-&#34;&gt;&lt;code&gt;next({ ...to, replace: true })&lt;/code&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：&lt;code&gt;next()&lt;/code&gt; 是导航守卫（如 &lt;code&gt;beforeEach&lt;/code&gt;）中的特有方法，用于控制导航的过程。&lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 可以用来重定向并替换当前的路由。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调用位置&lt;/strong&gt;：只能在导航守卫中使用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行为&lt;/strong&gt;：使用 &lt;code&gt;next&lt;/code&gt; 方法继续导航过程，并指定重定向目标，同时使用 &lt;code&gt;replace: true&lt;/code&gt; 选项来替换当前的路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;beforeEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;shouldRedirect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/new-path&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;return--to-replace-true-&#34;&gt;&lt;code&gt;return { ...to, replace: true }&lt;/code&gt;
+&lt;/h3&gt;&lt;p&gt;官网推荐使用&lt;code&gt;return ...&lt;/code&gt;替代&lt;code&gt;next(...)&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在导航守卫中，返回一个位置对象会告诉 Vue Router 要导航到新的位置。这个返回值会被 Vue Router 处理，并且重新触发导航守卫，使得整个导航过程重新运行。&lt;/li&gt;
+&lt;li&gt;自动重新触发导航守卫。&lt;/li&gt;
+&lt;li&gt;确保新路由生效，并且导航流程一致。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;区别&#34;&gt;区别
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;调用位置&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;router.replace()&lt;/code&gt; 可以在任何地方调用，包括组件内部的方法、导航守卫等。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 只能在导航守卫中使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;导航控制&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;router.replace()&lt;/code&gt; 是一个独立的方法调用，立即执行导航。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 是通过导航守卫控制导航流程的一部分。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;返回方式&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;router.replace()&lt;/code&gt; 直接执行，不返回控制权。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 是在 &lt;code&gt;beforeEach&lt;/code&gt; 等导航守卫中用于控制导航流程的返回值。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码示例&#34;&gt;代码示例
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;使用 &lt;code&gt;router.replace()&lt;/code&gt;：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;beforeEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;shouldRedirect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/new-path&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;使用 &lt;code&gt;next({ ...to, replace: true })&lt;/code&gt;：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;router&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;beforeEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;shouldRedirect&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/new-path&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;replace&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;在导航守卫中，使用 &lt;code&gt;next({ ...to, replace: true })&lt;/code&gt; 是更推荐的方式，因为它可以更好地控制导航流程。&lt;/li&gt;
+&lt;li&gt;在导航守卫之外，使用 &lt;code&gt;router.replace()&lt;/code&gt;。它是更通用的方法，可以的任何地方使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;routeraddroute&#34;&gt;&lt;code&gt;router.addRoute()&lt;/code&gt;
+&lt;/h2&gt;&lt;h2 id=&#34;routerreplace的应用场景&#34;&gt;&lt;code&gt;router.replace()&lt;/code&gt;的应用场景
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;router.replace&lt;/code&gt; ，用于替换当前的路由。这与 &lt;code&gt;router.push&lt;/code&gt; 类似，但不同的是，&lt;code&gt;router.replace&lt;/code&gt; 不会向历史记录添加新条目，而是替换当前的历史记录条目。因此，当使用 &lt;code&gt;router.replace&lt;/code&gt; 进行导航时，用户无法通过点击浏览器的“返回”按钮回到先前的页面。&lt;/p&gt;
 &lt;p&gt;以下是一些使用 &lt;code&gt;router.replace&lt;/code&gt; 的典型场景：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -100,6 +322,9 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;NOTE：&lt;/strong&gt;&lt;/em&gt; 在导航守卫中更推荐&lt;code&gt;return ...&lt;/code&gt;或&lt;code&gt;next(...)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;示例代码&#34;&gt;示例代码
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -132,11 +357,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;总之&lt;code&gt;router.replace&lt;/code&gt; 它在防止用户回到不希望显示的页面时非常有用。&lt;/p&gt;
-&lt;h2 id=&#34;动态调整应用的路由结构时&#34;&gt;动态调整应用的路由结构时
-&lt;/h2&gt;&lt;p&gt;在 Vue Router 的导航守卫中动态添加或删除路由是一个比较高级的用法，通常在需要基于某些条件（例如用户权限或角色）动态调整应用的路由结构时使用。这个场景的核心思想是，导航守卫可以在导航过程中对路由进行修改，然后通过返回一个新的位置来触发重定向，而不是直接调用 &lt;code&gt;router.replace()&lt;/code&gt;。这是因为在导航守卫中直接调用 &lt;code&gt;router.replace()&lt;/code&gt; 可能会导致导航重复触发，从而引起无限循环的问题。&lt;/p&gt;
+&lt;h2 id=&#34;动态调整应用的路由结构&#34;&gt;动态调整应用的路由结构
+&lt;/h2&gt;&lt;p&gt;在 Vue Router 的导航守卫中动态添加或删除路由是一个比较高级的用法，通常在需要基于某些条件（例如用户权限或角色）动态调整应用的路由结构时使用。&lt;br&gt;
+这个场景的核心思想是，导航守卫可以在导航过程中对路由进行修改，然后通过返回一个新的位置来触发重定向，而不是直接调用 &lt;code&gt;router.replace()&lt;/code&gt;。这是因为在导航守卫中直接调用 &lt;code&gt;router.replace()&lt;/code&gt; 可能会导致导航重复触发，从而引起无限循环的问题。&lt;/p&gt;
 &lt;h3 id=&#34;示例场景解释&#34;&gt;示例场景解释
 &lt;/h3&gt;&lt;p&gt;假设我们有一个应用，其中某些路由只有在特定条件下才存在（例如，用户登录后才可访问的管理页面）。在用户访问某个路由时，我们需要检查该路由是否已经存在，如果不存在则动态添加，然后重定向到该路由。&lt;/p&gt;
-&lt;h3 id=&#34;代码示例&#34;&gt;代码示例
+&lt;h3 id=&#34;代码示例-1&#34;&gt;代码示例
 &lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -349,6 +575,206 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;通过这种方式，可以动态调整路由配置，同时避免导航守卫中的无限循环问题。无限循环问题&lt;/p&gt;
+&lt;h2 id=&#34;路由记录和元信息&#34;&gt;路由记录和元信息
+&lt;/h2&gt;&lt;p&gt;Vue Router 的标准路由记录和 &lt;code&gt;meta&lt;/code&gt; 类型是设计用来管理和配置路由信息的。这些设计使得在应用中处理路由变得更加灵活和强大。以下是对 Vue Router 的标准路由记录和 &lt;code&gt;meta&lt;/code&gt; 类型的详细说明：&lt;/p&gt;
+&lt;h3 id=&#34;标准路由记录类型-routerecordraw&#34;&gt;标准路由记录类型 (&lt;code&gt;RouteRecordRaw&lt;/code&gt;)
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;RouteRecordRaw&lt;/code&gt; 是 Vue Router 中定义路由的基本类型。它用于定义一个路由配置的原始记录。主要字段包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;path&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由的路径。可以是静态路径或者带有动态参数的路径（例如 &lt;code&gt;/user/:id&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;name&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由的名称。这个名称用于路由导航和重定向。它可以是 &lt;code&gt;undefined&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;component&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;Component | AsyncComponent | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这个路由匹配时加载的组件。可以是一个组件对象，也可以是异步组件加载函数。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;redirect&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string | Location | Function | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由重定向的目标路径。如果设置了重定向，当访问这个路由时，会自动导航到指定的目标路径。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;children&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;RouteRecordRaw[] | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;子路由配置。这个路由的子路由配置可以通过嵌套的 &lt;code&gt;RouteRecordRaw&lt;/code&gt; 数组来定义。如果没有子路由，这个字段可以是 &lt;code&gt;undefined&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;meta&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;Record&amp;lt;string, any&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由的元信息。&lt;code&gt;meta&lt;/code&gt; 是一个对象，可以包含任意的自定义信息，比如权限、标题等。这些信息不会影响路由的匹配，而是用于应用的其他逻辑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;beforeEnter&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;RouteEnterGuard | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进入路由前的导航守卫函数。用于在路由进入前进行权限检查或其他逻辑处理。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;props&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | object | Function | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;控制如何将路由参数传递给组件。可以是布尔值、对象、函数或者 &lt;code&gt;undefined&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;meta-类型&#34;&gt;&lt;code&gt;meta&lt;/code&gt; 类型
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;meta&lt;/code&gt; 是路由记录中的一个字段，用于存储与路由相关的任意元数据。你可以根据需要自定义 &lt;code&gt;meta&lt;/code&gt; 的内容。常见的字段包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;title&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由的标题，通常用于页面标题或面包屑导航。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;requiresAuth&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否需要认证。用于控制访问权限，比如只有经过认证的用户才能访问该路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;roles&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string[] | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;访问该路由需要的角色列表。用于权限控制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;icon&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;路由的图标。通常用于侧边栏或导航菜单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;hidden&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否在导航菜单中隐藏该路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keepAlive&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否缓存该路由组件。通常用于优化性能，避免重复加载组件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;alwaysShow&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在多级路由中，是否始终显示该路由的父级菜单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;activePath&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;string | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用于设置路由激活状态的路径，通常用于动态高亮菜单项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;showLink&lt;/code&gt;&lt;/strong&gt;: &lt;code&gt;boolean | undefined&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否在导航菜单中显示该路由。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;示例&#34;&gt;示例
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;RouteRecordRaw&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;vue-router&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;routes&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;RouteRecordRaw&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/home&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Home&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;component&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;@/views/Home.vue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Home Page&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;home&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;hidden&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/profile&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Profile&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;component&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;@/views/Profile.vue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;User Profile&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;user&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nx&#34;&gt;hidden&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;children&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;settings&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;ProfileSettings&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;component&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;@/views/ProfileSettings.vue&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Profile Settings&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;: &lt;span class=&#34;kt&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;settings&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;总结-1&#34;&gt;总结
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;RouteRecordRaw&lt;/code&gt;&lt;/strong&gt; 类型定义了一个路由记录的基本结构，包括路径、名称、组件、重定向、子路由、元信息等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;meta&lt;/code&gt;&lt;/strong&gt; 字段用于存储与路由相关的任意元数据，方便应用进行各种自定义配置和逻辑处理。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
@@ -1825,7 +2251,8 @@ rejected（已拒绝） ：意味着操作失败。&lt;/p&gt;
         <pubDate>Fri, 19 Jul 2024 17:00:23 +0800</pubDate>
         
         <guid>http://localhost:1313/p/vue-router-%E5%AF%BC%E8%88%AA%E5%AE%88%E5%8D%AB/</guid>
-        <description>&lt;p&gt;虽然 Vue Router 仍然支持 &lt;code&gt;next&lt;/code&gt; 方法，但确实不再推荐使用它，并且官方文档中也建议避免使用。在 Vue 3 中，你可以通过返回一个 &lt;code&gt;Promise&lt;/code&gt; 或直接返回一个路由路径来处理导航守卫逻辑，而不必使用 &lt;code&gt;next&lt;/code&gt; 方法。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;使用return-替代next&#34;&gt;使用&lt;code&gt;return {...}&lt;/code&gt;替代&lt;code&gt;next({...})&lt;/code&gt;
+&lt;/h2&gt;&lt;p&gt;虽然 Vue Router 仍然支持 &lt;code&gt;next&lt;/code&gt; 方法，但确实不再推荐使用它，并且官方文档中也建议避免使用。在 Vue 3 中，你可以通过返回一个 &lt;code&gt;Promise&lt;/code&gt; 或直接返回一个路由路径来处理导航守卫逻辑，而不必使用 &lt;code&gt;next&lt;/code&gt; 方法。&lt;/p&gt;
 &lt;p&gt;以下是如何在全局导航守卫中实现 token 检查和重定向，而不使用 &lt;code&gt;next&lt;/code&gt; 方法：&lt;/p&gt;
 &lt;h3 id=&#34;配置-vue-router&#34;&gt;配置 Vue Router
 &lt;/h3&gt;&lt;p&gt;在 &lt;code&gt;src/router/index.js&lt;/code&gt; 中配置路由，并添加全局前置守卫：&lt;/p&gt;
@@ -1987,13 +2414,135 @@ rejected（已拒绝） ：意味着操作失败。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;通过这种方式，你可以避免使用 &lt;code&gt;next&lt;/code&gt; 方法，而是通过在导航守卫中返回路由路径或 &lt;code&gt;true&lt;/code&gt; 来处理导航逻辑。这种方式更简洁，也避免了可能的错误来源。&lt;/p&gt;
 &lt;h2 id=&#34;添加动态路由&#34;&gt;添加动态路由
-&lt;/h2&gt;&lt;p&gt;数据需要是标准的路由记录类型，才能被添加&lt;/p&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;几个关键点&#34;&gt;几个关键点
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;后端返回的菜单要转化为标准的路由记录数据类型&lt;/li&gt;
+&lt;li&gt;后端返回的嵌套菜单数据结构是否能直接通过&lt;code&gt;router.addRoute&lt;/code&gt;方法添加：可以，但是后端返回的&lt;code&gt;component&lt;/code&gt;字段（前端组件路径）需要转换为实际的Vue组件&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;数据需要是标准的路由记录类型，才能被添加&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;官方参考：&lt;a class=&#34;link&#34; href=&#34;https://router.vuejs.org/zh/guide/advanced/dynamic-routing.html#%E6%B7%BB%E5%8A%A0%E8%B7%AF%E7%94%B1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;添加路由&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;标准的路由&#34;&gt;标准的路由
-&lt;/h3&gt;&lt;h2 id=&#34;全局前置守卫&#34;&gt;全局前置守卫
+&lt;/h3&gt;&lt;h2 id=&#34;tomatched和tometa方法&#34;&gt;&lt;code&gt;to.matched&lt;/code&gt;和&lt;code&gt;to.meta&lt;/code&gt;方法
+&lt;/h2&gt;&lt;p&gt;在 Vue Router 中，&lt;code&gt;route.meta&lt;/code&gt; 是一个有用的属性，它可以帮助你获取当前路由的合并的 meta 数据。这里的“非递归合并”指的是 Vue Router 在合并 &lt;code&gt;meta&lt;/code&gt; 数据时并不会递归地处理所有父级路由的 &lt;code&gt;meta&lt;/code&gt; 数据，而是直接将所有父级和子级路由的 &lt;code&gt;meta&lt;/code&gt; 数据合并在一起。&lt;/p&gt;
+&lt;h3 id=&#34;routemeta-的功能和工作原理&#34;&gt;&lt;code&gt;route.meta&lt;/code&gt; 的功能和工作原理
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;路由记录的合并&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Vue Router 中，&lt;code&gt;route.matched&lt;/code&gt; 数组包含了当前路由匹配到的所有路由记录。这些记录包括了当前路由以及它的所有父级路由。&lt;/li&gt;
+&lt;li&gt;你可以遍历这个数组来手动提取和合并 &lt;code&gt;meta&lt;/code&gt; 数据。每个路由记录的 &lt;code&gt;meta&lt;/code&gt; 数据可能会有不同的属性，这通常需要递归合并。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;非递归合并&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vue Router 提供了一个 &lt;code&gt;route.meta&lt;/code&gt; 方法，它会将所有匹配的路由记录的 &lt;code&gt;meta&lt;/code&gt; 数据合并为一个单一的对象。合并是“非递归”的，意味着它不会深入到子路由中进一步合并，而是直接将所有父级和子级的 &lt;code&gt;meta&lt;/code&gt; 数据一并合成。&lt;/li&gt;
+&lt;li&gt;如果 &lt;code&gt;meta&lt;/code&gt; 数据中存在相同的字段，后面定义的字段会覆盖前面的字段（类似于普通的对象合并）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;示例&#34;&gt;示例
+&lt;/h3&gt;&lt;p&gt;假设你有如下的路由配置：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;routes&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/parent&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;role&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;admin&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;children&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;child&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;permissions&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;read&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;children&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;grandchild&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;permissions&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;write&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;对于匹配到的 &lt;code&gt;/parent/child/grandchild&lt;/code&gt; 路由，&lt;code&gt;route.matched&lt;/code&gt; 数组将包含：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;/parent&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/parent/child&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/parent/child/grandchild&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;手动合并&lt;/strong&gt; &lt;code&gt;meta&lt;/code&gt; 数据：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;routeMeta&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;route&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;matched&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;route&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;matched&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;route&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;matched&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;使用 Vue Router 的 &lt;code&gt;route.meta&lt;/code&gt; 方法&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;routeMeta&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;route&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;route.meta&lt;/code&gt; 合并后的结果&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;requiresAuth&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 最终结果由最后一个子路由的 `meta` 决定
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;nx&#34;&gt;permissions&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;write&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 最终结果由最后一个子路由的 `meta` 决定
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;route.matched&lt;/code&gt;&lt;/strong&gt; 数组包含了当前路由和所有父级路由的信息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非递归合并&lt;/strong&gt; 指的是 Vue Router 将所有这些 &lt;code&gt;meta&lt;/code&gt; 数据直接合并为一个对象，而不是递归地处理每个子路由的 &lt;code&gt;meta&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;route.meta&lt;/code&gt;&lt;/strong&gt; 方法会合并所有匹配的路由记录的 &lt;code&gt;meta&lt;/code&gt; 数据，确保你可以方便地获取当前路由和所有父级路由的合并 &lt;code&gt;meta&lt;/code&gt; 数据。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;全局前置守卫&#34;&gt;全局前置守卫
 &lt;/h2&gt;&lt;h3 id=&#34;怎么判断路由匹配成功&#34;&gt;怎么判断路由匹配成功？
 &lt;/h3&gt;&lt;p&gt;&lt;code&gt;to.matched&lt;/code&gt; 属性来判断是否有路由匹配成功。&lt;code&gt;to.matched&lt;/code&gt; 是一个数组，包含所有与目标路由匹配的路由记录。你可以检查这个数组是否为空来判断是否有路由匹配成功。&lt;/p&gt;
 &lt;h3 id=&#34;设置动态路由&#34;&gt;设置动态路由
@@ -2019,6 +2568,10 @@ rejected（已拒绝） ：意味着操作失败。&lt;/p&gt;
 &lt;/h2&gt;&lt;p&gt;路由导航（Routing Navigation）是管理和切换应用程序页面的过程。&lt;/p&gt;
 &lt;h3 id=&#34;路由基础&#34;&gt;路由基础
 &lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;路由记录 (Router Record)&lt;/strong&gt;：我们称呼 routes 配置中的每个路由对象为 &lt;a class=&#34;link&#34; href=&#34;https://router.vuejs.org/zh/guide/advanced/meta.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;路由记录&lt;/a&gt;。路由记录可以是嵌套的，因此，当一个路由匹配成功后，它可能匹配多个路由记录。&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;路由器 (Router)&lt;/strong&gt;: 路由器是一个 Vue 插件，它管理应用的所有路由，通过&lt;code&gt;createRouter({...});&lt;/code&gt;创建一个路由器实例，并配置你的路由。&lt;/p&gt;
 &lt;/li&gt;
@@ -4481,13 +5034,15 @@ require()不支持直接导入ES模块，可以使用动态import()代替require
 &lt;h2 id=&#34;高远球&#34;&gt;高远球
 &lt;/h2&gt;&lt;h3 id=&#34;核心技术&#34;&gt;核心技术
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;确认步
+&lt;li&gt;
+&lt;p&gt;确认步&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;降重心到后腿&lt;/li&gt;
 &lt;li&gt;把控距离，找到一个合适的击球位置&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;li&gt;展肩
+&lt;li&gt;
+&lt;p&gt;展肩&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;两肩连起的直线朝向斜上方&lt;/li&gt;
 &lt;li&gt;稍稍往后收紧，避免含胸&lt;/li&gt;
@@ -4495,8 +5050,14 @@ require()不支持直接导入ES模块，可以使用动态import()代替require
 &lt;li&gt;击球时，左肩往后往下，右键往前往上高（顶）肘&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;肘部前移控制&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;击球时应固定肘部，拍头位置才高；如果肘部前移，拍面会朝下
+击球发力瞬间虎口握紧，其他时候放松、掌心留空隙握拍&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;击球发力瞬间虎口握紧，其他时候放松、掌心留空隙握拍&lt;/p&gt;
 &lt;h3 id=&#34;q--a&#34;&gt;Q &amp;amp; A
 &lt;/h3&gt;&lt;p&gt;展肩是在最后才做吗？架好拍后，就做好展肩吗？
 展肩和架拍并步移动的先后关系？&lt;/p&gt;

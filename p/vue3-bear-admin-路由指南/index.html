@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.vue&#39;; import About from &#39;@/views/About.">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由记录 (Router Record)：我们称呼 routes 配置中的每个路由对象为 路由记录。路由记录可以是嵌套的，因此，当一个路由匹配成功后，它可能匹配多个路由记录。 路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.">
 <title>Vue3-Bear-Admin 路由指南</title>
 
 <link rel='canonical' href='http://localhost:1313/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Vue3-Bear-Admin 路由指南">
-<meta property='og:description' content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.vue&#39;; import About from &#39;@/views/About.">
+<meta property='og:description' content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由记录 (Router Record)：我们称呼 routes 配置中的每个路由对象为 路由记录。路由记录可以是嵌套的，因此，当一个路由匹配成功后，它可能匹配多个路由记录。 路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.">
 <meta property='og:url' content='http://localhost:1313/p/vue3-bear-admin-%E8%B7%AF%E7%94%B1%E6%8C%87%E5%8D%97/'>
 <meta property='og:site_name' content='Somi 博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:published_time' content='2024-07-16T11:25:52&#43;08:00'/><meta property='article:modified_time' content='2024-07-16T11:25:52&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:tag' content='Vue Router' /><meta property='article:published_time' content='2024-07-16T11:25:52&#43;08:00'/><meta property='article:modified_time' content='2024-07-16T11:25:52&#43;08:00'/>
 <meta name="twitter:title" content="Vue3-Bear-Admin 路由指南">
-<meta name="twitter:description" content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.vue&#39;; import About from &#39;@/views/About.">
+<meta name="twitter:description" content="基本概念\r路由导航（Routing Navigation）是管理和切换应用程序页面的过程。 路由基础\r路由记录 (Router Record)：我们称呼 routes 配置中的每个路由对象为 路由记录。路由记录可以是嵌套的，因此，当一个路由匹配成功后，它可能匹配多个路由记录。 路由器 (Router): 路由器是一个 Vue 插件，它管理应用的所有路由，通过createRouter({...});创建一个路由器实例，并配置你的路由。 路由 (Routes): 路由定义了 URL 路径与组件之间的映射关系。当用户访问特定 URL 时，路由器会渲染相应的组件。 路由视图 (Router View): &lt;router-view&gt; 是一个占位符组件，路由器会在其中渲染匹配的组件。 路由链接 (Router Link): &lt;router-link&gt; 是一个用于创建导航链接的组件，它会生成一个包含正确 href 属性的 &lt;a&gt; 标签。 配置 Vue Router\r安装 Vue Router: 1 npm install vue-router 创建路由配置: 在 src/router/index.js 中配置路由： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 import { createRouter, createWebHistory } from &#39;vue-router&#39;; import Home from &#39;@/views/Home.">
   
 
 
@@ -363,10 +363,6 @@
     
     <header class="article-category">
         
-            <a href="/categories/%23%E5%89%8D%E7%AB%AF%23vue-router/" >
-                #前端#Vue Router
-            </a>
-        
     </header>
     
 
@@ -409,7 +405,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 2 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -428,6 +424,10 @@
 </h2><p>路由导航（Routing Navigation）是管理和切换应用程序页面的过程。</p>
 <h3 id="路由基础">路由基础
 </h3><ol>
+<li>
+<p><strong>路由记录 (Router Record)</strong>：我们称呼 routes 配置中的每个路由对象为 <a class="link" href="https://router.vuejs.org/zh/guide/advanced/meta.html"  target="_blank" rel="noopener"
+    >路由记录</a>。路由记录可以是嵌套的，因此，当一个路由匹配成功后，它可能匹配多个路由记录。</p>
+</li>
 <li>
 <p><strong>路由器 (Router)</strong>: 路由器是一个 Vue 插件，它管理应用的所有路由，通过<code>createRouter({...});</code>创建一个路由器实例，并配置你的路由。</p>
 </li>
@@ -783,6 +783,8 @@
         
             <a href="/tags/vue3-bear-admin/">Vue3-Bear-Admin</a>
         
+            <a href="/tags/vue-router/">Vue Router</a>
+        
     </section>
 
 
@@ -815,25 +817,12 @@
             
                 
 <article class="">
-    <a href="/p/%E5%B5%8C%E5%A5%97%E8%B7%AF%E7%94%B1%E5%92%8C%E5%91%BD%E5%90%8D%E8%A7%86%E5%9B%BE%E7%9A%84%E4%BD%BF%E7%94%A8/">
+    <a href="/p/%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1%E4%BD%BF%E7%94%A8/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">嵌套路由和命名视图的使用</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/mockjs/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Mockjs</h2>
+            <h2 class="article-title">动态路由使用</h2>
         </div>
     </a>
 </article>
