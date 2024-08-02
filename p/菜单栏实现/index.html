@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填 自定义外部 &amp; 内部链接组件\r这个组件定义了一个名为 AppLink 的动态链接组件，根据 props.to 的值决定渲染成外部链接 &lt;a&gt; 还是内部路由链接 &lt;router-link&gt;。 让我们逐步解析： 模板部分 (&lt;template&gt;): 1 2 3 4 5 &lt;template&gt; &lt;component :is=&#34;linkType&#34; v-bind=&#34;linkProps(to)&#34;&gt; &lt;slot&gt;&lt;/slot&gt; &lt;/component&gt; &lt;/template&gt; component 组件根据 linkType 动态地渲染为 linkType 的值，可以是 &quot;a&quot; 或 &quot;router-link&quot;。 v-bind=&quot;linkProps(to)&quot; 将 linkProps 函数返回的属性动态绑定到 component 组件上。 &lt;slot&gt;&lt;/slot&gt; 用于插入组件的内容。 设置部分 (&lt;script setup lang=&quot;ts&quot;&gt;): defineOptions 用于定义组件选项，这里设置了组件的名称为 &quot;AppLink&quot;，并且禁用了继承的属性绑定（inheritAttrs: false）。">
 <title>菜单栏实现</title>
 
 <link rel='canonical' href='http://localhost:1313/p/%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%AE%9E%E7%8E%B0/'>
 
 <link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="菜单栏实现">
-<meta property='og:description' content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填">
+<meta property='og:description' content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填 自定义外部 &amp; 内部链接组件\r这个组件定义了一个名为 AppLink 的动态链接组件，根据 props.to 的值决定渲染成外部链接 &lt;a&gt; 还是内部路由链接 &lt;router-link&gt;。 让我们逐步解析： 模板部分 (&lt;template&gt;): 1 2 3 4 5 &lt;template&gt; &lt;component :is=&#34;linkType&#34; v-bind=&#34;linkProps(to)&#34;&gt; &lt;slot&gt;&lt;/slot&gt; &lt;/component&gt; &lt;/template&gt; component 组件根据 linkType 动态地渲染为 linkType 的值，可以是 &quot;a&quot; 或 &quot;router-link&quot;。 v-bind=&quot;linkProps(to)&quot; 将 linkProps 函数返回的属性动态绑定到 component 组件上。 &lt;slot&gt;&lt;/slot&gt; 用于插入组件的内容。 设置部分 (&lt;script setup lang=&quot;ts&quot;&gt;): defineOptions 用于定义组件选项，这里设置了组件的名称为 &quot;AppLink&quot;，并且禁用了继承的属性绑定（inheritAttrs: false）。">
 <meta property='og:url' content='http://localhost:1313/p/%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%AE%9E%E7%8E%B0/'>
 <meta property='og:site_name' content='Somi 博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Vue3-Bear-Admin' /><meta property='article:published_time' content='2024-07-25T14:57:35&#43;08:00'/><meta property='article:modified_time' content='2024-07-25T14:57:35&#43;08:00'/>
 <meta name="twitter:title" content="菜单栏实现">
-<meta name="twitter:description" content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填">
+<meta name="twitter:description" content="注意事项\r所有涉及菜单的组件，都需要传index属性，否则不会正常展示 MyMenuItem.vue组件的实现\ritem 没有子节点：直接使用el-menu-item展示item本身 item 有子节点： 使用el-sub-menu item.meta.title作为标题 递归MyMenuItem.vue组件对item.children属性遍历 图标使用\riconify 点击菜单跳转路由\rel-menu\rdefault-active\r页面加载时默认激活菜单的 index el-sub-menu\r标题\rindex属性\r唯一标志，必填 自定义外部 &amp; 内部链接组件\r这个组件定义了一个名为 AppLink 的动态链接组件，根据 props.to 的值决定渲染成外部链接 &lt;a&gt; 还是内部路由链接 &lt;router-link&gt;。 让我们逐步解析： 模板部分 (&lt;template&gt;): 1 2 3 4 5 &lt;template&gt; &lt;component :is=&#34;linkType&#34; v-bind=&#34;linkProps(to)&#34;&gt; &lt;slot&gt;&lt;/slot&gt; &lt;/component&gt; &lt;/template&gt; component 组件根据 linkType 动态地渲染为 linkType 的值，可以是 &quot;a&quot; 或 &quot;router-link&quot;。 v-bind=&quot;linkProps(to)&quot; 将 linkProps 函数返回的属性动态绑定到 component 组件上。 &lt;slot&gt;&lt;/slot&gt; 用于插入组件的内容。 设置部分 (&lt;script setup lang=&quot;ts&quot;&gt;): defineOptions 用于定义组件选项，这里设置了组件的名称为 &quot;AppLink&quot;，并且禁用了继承的属性绑定（inheritAttrs: false）。">
   
 
 
@@ -339,9 +339,9 @@
       <ol>
         <li><a href="#标题">标题</a></li>
         <li><a href="#index属性">index属性</a></li>
-        <li><a href="#heading"></a></li>
       </ol>
     </li>
+    <li><a href="#自定义外部--内部链接组件">自定义外部 &amp; 内部链接组件</a></li>
   </ol>
 </nav>
         </div>
@@ -452,8 +452,61 @@
 </div>
 </div><h3 id="index属性">index属性
 </h3><p>唯一标志，必填</p>
-<h3 id="heading">
-</h3>
+<h2 id="自定义外部--内部链接组件">自定义外部 &amp; 内部链接组件
+</h2><p>这个组件定义了一个名为 <code>AppLink</code> 的动态链接组件，根据 <code>props.to</code> 的值决定渲染成外部链接 <code>&lt;a&gt;</code> 还是内部路由链接 <code>&lt;router-link&gt;</code>。</p>
+<p>让我们逐步解析：</p>
+<ol>
+<li>
+<p><strong>模板部分 (<code>&lt;template&gt;</code>)</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">component</span> <span class="na">:is</span><span class="o">=</span><span class="s">&#34;linkType&#34;</span> <span class="na">v-bind</span><span class="o">=</span><span class="s">&#34;linkProps(to)&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">slot</span><span class="p">&gt;&lt;/</span><span class="nt">slot</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">component</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>component</code> 组件根据 <code>linkType</code> 动态地渲染为 <code>linkType</code> 的值，可以是 <code>&quot;a&quot;</code> 或 <code>&quot;router-link&quot;</code>。</li>
+<li><code>v-bind=&quot;linkProps(to)&quot;</code> 将 <code>linkProps</code> 函数返回的属性动态绑定到 <code>component</code> 组件上。</li>
+<li><code>&lt;slot&gt;&lt;/slot&gt;</code> 用于插入组件的内容。</li>
+</ul>
+</li>
+<li>
+<p><strong>设置部分 (<code>&lt;script setup lang=&quot;ts&quot;&gt;</code>)</strong>:</p>
+<ul>
+<li>
+<p><code>defineOptions</code> 用于定义组件选项，这里设置了组件的名称为 <code>&quot;AppLink&quot;</code>，并且禁用了继承的属性绑定（<code>inheritAttrs: false</code>）。</p>
+</li>
+<li>
+<p><strong>导入与计算属性</strong>:</p>
+<ul>
+<li><code>import { isExternal } from &quot;@/utils/index&quot;;</code> 导入了一个名为 <code>isExternal</code> 的工具函数。</li>
+<li><code>defineProps</code> 定义了组件的属性 <code>to</code>，类型为 <code>Object</code>，且必需。</li>
+<li><code>computed</code> 属性 <code>isExternalLink</code> 根据 <code>props.to.path</code> 的值来判断是否为外部链接。</li>
+</ul>
+</li>
+<li>
+<p><strong>计算属性与函数</strong>:</p>
+<ul>
+<li><code>isExternalLink</code> 是一个计算属性，根据 <code>props.to.path</code> 是否为空或者属于外部链接，决定返回 <code>true</code> 或 <code>false</code>。</li>
+<li><code>linkType</code> 是一个计算属性，根据 <code>isExternalLink</code> 的值决定返回 <code>&quot;a&quot;</code> 或 <code>&quot;router-link&quot;</code>，从而确定要渲染的具体的 HTML 元素类型。</li>
+<li><code>linkProps</code> 是一个函数，接收一个 <code>to</code> 参数，根据 <code>isExternalLink</code> 的值返回相应的属性对象，用于 <code>&lt;a&gt;</code> 或 <code>&lt;router-link&gt;</code> 的设置。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>综上所述，这个组件根据传入的 <code>to</code> 属性值，动态地决定是渲染成外部链接 <code>&lt;a&gt;</code> 还是内部路由链接 <code>&lt;router-link&gt;</code>，并根据这个决定设置相应的属性。</p>
+
 </section>
 
 
